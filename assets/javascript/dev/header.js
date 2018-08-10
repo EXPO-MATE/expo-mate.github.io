@@ -14,7 +14,12 @@ $(function () {
             setCookie('lang',navLink,7);
             window.location.reload();
         } else if(navLink.indexOf('#') !== -1) {
-            var linkPos = $(navLink).offset().top + -30;
+            var linkPos = $(navLink).offset().top;
+            if (navLink === '#footer') {
+                linkPos = $('#contact-info').offset().top;
+            } else if (navLink === '#comparison') {
+                linkPos = $('#comparison-wrapper').offset().top;
+            }
             $("html, body").animate({ scrollTop: linkPos });
         }
 
