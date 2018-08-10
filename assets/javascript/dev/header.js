@@ -14,7 +14,7 @@ $(function () {
             setCookie('lang',navLink,7);
             window.location.reload();
         } else if(navLink.indexOf('#') !== -1) {
-            var linkPos = $(navLink).offset().top;
+            var linkPos = $(navLink).offset().top + -30;
             $("html, body").animate({ scrollTop: linkPos });
         }
 

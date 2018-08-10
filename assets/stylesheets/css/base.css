@@ -1727,7 +1727,7 @@ body.open {
       height: 1200px; } }
   @media only screen and (max-width: 991px) {
     #values {
-      height: 700px; } }
+      height: 750px; } }
   #values h2 {
     margin-top: 75px; }
     @media only screen and (max-width: 991px) {
@@ -1782,6 +1782,10 @@ body.open {
       @media screen and (max-width: 1600px) {
         #values .content-container .row > div {
           padding: 60px 0; } }
+      @media only screen and (max-width: 991px) {
+        #values .content-container .row > div {
+          min-height: 165px;
+          font-size: .875em; } }
       #values .content-container .row > div strong {
         opacity: 0; }
       #values .content-container .row > div:first-child {

@@ -3,7 +3,7 @@
   @media screen and (min-width: 1600px)
     height: 1200px
   +respond-max-width(sm)
-    height: 700px 
+    height: 750px 
   overflow: hidden
   background: #efefef
   h2
@@ -51,6 +51,9 @@
         padding: 100px 0
         @media screen and (max-width: 1600px)
           padding: 60px 0
+        +respond-max-width(sm)
+          min-height: 165px
+          font-size: .875em
         text-align: center
         strong
           opacity: 0
