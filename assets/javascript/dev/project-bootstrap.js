@@ -1,16 +1,8 @@
-window.onload = function() {
-    if(!window.location.hash) {
-        window.location = window.location + '#loaded';
-        window.location.reload();
-    }
-}
-
 $(function(){
     // Load projects
     if ($('body').hasClass('projects')){
         var url = './assets/json/content.bin';
         var hash = window.location.hash;
-        var iOS = !!navigator.platform && /iPhone|iPod/.test(navigator.platform);
 
         $.ajax({
             url: url,
