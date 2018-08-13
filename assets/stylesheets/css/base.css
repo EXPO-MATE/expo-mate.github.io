@@ -782,12 +782,19 @@ body.projects #header {
   body.projects #header .background-type.solid {
     background: #000;
     height: 700px; }
+    @media only screen and (min-device-width: 200px) and (max-device-width: 1024px) and (orientation: portrait) {
+      body.projects #header .background-type.solid {
+        height: 480px; } }
     @media only screen and (max-width: 991px) {
       body.projects #header .background-type.solid .container {
         top: 42%; } }
     body.projects #header .background-type.solid h1 {
       opacity: 1;
       font-size: 2em; }
+      @media only screen and (max-width: 991px) {
+        body.projects #header .background-type.solid h1 {
+          font-size: 1em;
+          margin-bottom: 20px; } }
     body.projects #header .background-type.solid .background-wrapper {
       background: url("../../images/tile-bg-dark.jpg") top left no-repeat;
       background-size: cover;

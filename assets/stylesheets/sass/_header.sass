@@ -137,12 +137,17 @@ body.projects
     .background-type.solid
       background: #000
       height: 700px
+      @media only screen and (min-device-width: 200px) and (max-device-width: 1024px) and (orientation: portrait)
+        height: 480px
       .container
         +respond-max-width(sm)
           top: 42%
       h1
         opacity: 1
         font-size: 2em
+        +respond-max-width(sm)
+          font-size: 1em
+          margin-bottom: 20px
       .background-wrapper
         background: url('../../images/tile-bg-dark.jpg') top left no-repeat
         background-size: cover

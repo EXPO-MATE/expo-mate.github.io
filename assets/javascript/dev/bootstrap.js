@@ -1,7 +1,3 @@
-
-
-// jQuery bootstrap
-
 $(function () {
     //********* Const
     var lastScrollTop = 0

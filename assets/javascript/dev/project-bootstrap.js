@@ -1,13 +1,16 @@
+window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+
 $(function(){
     // Load projects
     if ($('body').hasClass('projects')){
         var url = './assets/json/content.bin';
         var hash = window.location.hash;
-
-        $.ajaxSetup({
-            scriptCharset: "utf-8",
-            contentType: "application/json; charset=utf-8"
-        });
+        var iOS = !!navigator.platform && /iPhone|iPod/.test(navigator.platform);
 
         $.ajax({
             url: url,
@@ -23,9 +26,6 @@ $(function(){
 
                 if (loc === undefined) {
                     chooseCookie();
-                    setTimeout(function(){
-                        window.location.reload();
-                    },20);
                 }
 
                 $.each(projectDetail, function (index, item) {
@@ -135,6 +135,9 @@ $(function(){
                         }
                     }
                 });
+            }, 
+            error: function (err) {
+                chooseCookie();
             }
         });
     }
