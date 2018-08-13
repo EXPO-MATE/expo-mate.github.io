@@ -47,6 +47,10 @@ function chooseCookie(){
 
     if (queryParam !== undefined && queryParam === 'de'){
         setCookie('lang','de',7);
+    } else if (queryParam !== undefined && queryParam === 'en'){
+        setCookie('lang','en',7);
+    } else if (queryParam !== undefined && queryParam === 'nl'){
+        setCookie('lang','nl',7);
     }
 
     setTimeout(function(){
