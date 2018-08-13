@@ -8,6 +8,10 @@ function setCookie(name,value,days) {
         expires = "; expires=" + date.toUTCString();
     }
     document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+
+    setTimeout(function(){
+        window.location.reload();
+    },20);
 }
 function getCookie(name) {
     var nameEQ = name + "=";
@@ -26,7 +30,6 @@ function eraseCookie(name) {
 function chooseCookie(){
     var userLang = navigator.language || navigator.userLanguage;
     var activeCookie = getCookie('lang');
-    console.log('param', getParameterByName('lang'));
     var queryParam = getParameterByName('lang');
     if(activeCookie === undefined || activeCookie === null || activeCookie === ''){
         if(userLang.match(/de/g)){

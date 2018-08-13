@@ -21,6 +21,10 @@ $(function(){
                 , projectDetail = actual[loc].pages.projects
                 , section = $('#projects .projects-wrapper');
 
+                if (loc === undefined) {
+                    chooseCookie();
+                }
+
                 $.each(projectDetail, function (index, item) {
                     var imageArray = []
                         , imageContent = item.images
