@@ -29,7 +29,7 @@ function chooseCookie(){
     var queryParam = getParameterByName('lang');
     if(activeCookie === undefined || activeCookie === null || activeCookie === ''){
         if(userLang.match(/de/g)){
-            setCookie('lang','en',7);
+            setCookie('lang','de',7);
         } else if (userLang.match(/en/g)){
             setCookie('lang','en',7);
         } else if (userLang.match(/nl/g)) {
