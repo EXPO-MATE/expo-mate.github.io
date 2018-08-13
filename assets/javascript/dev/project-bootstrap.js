@@ -138,7 +138,7 @@ $(function(){
 
 function sliderInit(projectElem){
     if(typeof projectElem === 'string'){
-        $('#'+projectElem+' .slider').not('.slick-initialized').slick({
+        $('#'+projectElem+' .slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             accessibility: true,
