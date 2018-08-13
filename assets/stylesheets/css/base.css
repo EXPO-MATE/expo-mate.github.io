@@ -1500,7 +1500,6 @@ body.open {
     overflow: hidden; }
     .projects-wrapper .project.open .project-wrapper {
       display: block !important;
-      height: 100vh !important;
       width: 100vw; }
     .projects-wrapper .project.open .project-review {
       display: none; }
