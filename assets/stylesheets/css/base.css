@@ -1497,9 +1497,13 @@ body.open {
     height: 100vh;
     z-index: 9;
     background: #fff; }
-    @media only screen and (min-device-width: 300px) and (max-device-width: 1025px) and (orientation: landscape) {
-      .projects-wrapper .project.open {
-        height: 100vh; } }
+    .projects-wrapper .project.open .project-wrapper {
+      display: block !important;
+      height: 100vh !important;
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0; }
     .projects-wrapper .project.open .project-review {
       display: none; }
       .projects-wrapper .project.open .project-review .review-date {
@@ -1529,7 +1533,8 @@ body.open {
     .projects-wrapper .project.open .slider {
       height: 100vh;
       width: 100vw;
-      margin: 0; }
+      margin: 0;
+      overflow: hidden; }
       .projects-wrapper .project.open .slider .project-image {
         background-size: cover;
         background-repeat: no-repeat;
@@ -1714,7 +1719,7 @@ body.open {
     #google-reviews-wrapper {
       width: 90vw;
       padding: 20px;
-      min-height: 300px; }
+      min-height: 200px; }
       #google-reviews-wrapper .slick-prev {
         left: -50px; }
       #google-reviews-wrapper .slick-next {

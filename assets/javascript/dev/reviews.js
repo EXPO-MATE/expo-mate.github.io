@@ -54,6 +54,14 @@ function reviewSlider(){
         fade: true,
         infinite: true,
         autoplaySpeed: 8000,
-        arrows: true
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    adaptiveHeight: true
+                }
+            }
+        ]
     });
 }

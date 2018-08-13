@@ -142,14 +142,11 @@ function sliderInit(projectElem){
             $('#'+projectElem+' .slider').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                accessibility: true,
                 autoplay: true,
                 autoplaySpeed: 3000,
-                adaptiveHeight: true,
                 arrows: true,
                 lazyLoad: 'onDemand',
-                swip: true,
-                cssEase: 'ease'
+                swip: true
             });
         }
     },100);
