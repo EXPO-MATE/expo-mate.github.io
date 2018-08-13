@@ -1432,10 +1432,6 @@ body.open {
     .projects-wrapper .project,
     .projects-wrapper .project-wrapper {
       height: 250px; } }
-  @media only screen and (min-device-width: 300px) and (max-device-width: 1025px) and (orientation: landscape) {
-    .projects-wrapper .project,
-    .projects-wrapper .project-wrapper {
-      height: 340px; } }
   @media only screen and (max-width: 991px) {
     .projects-wrapper .project,
     .projects-wrapper .project-wrapper {
@@ -1449,11 +1445,15 @@ body.open {
     .projects-wrapper .project,
     .projects-wrapper .project-wrapper {
       height: 625px; } }
-  @media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (orientation: landscape) {
+  @media only screen and (min-device-width: 300px) and (max-device-width: 1025px) and (orientation: landscape) {
     .projects-wrapper .project,
     .projects-wrapper .project-wrapper {
       display: block !important;
       height: auto !important; } }
+  @media only screen and (min-device-width: 300px) and (max-device-width: 1025px) and (orientation: landscape) {
+    .projects-wrapper .project,
+    .projects-wrapper .project-wrapper {
+      height: 750px !important; } }
 
 .projects-wrapper .project {
   width: 100%;
@@ -1587,11 +1587,15 @@ body.open {
   .projects-wrapper .project:not(.open) .project-desc-wrapper {
     width: 50%;
     margin: 0;
-    paddign: 0;
+    padding: 0;
     float: left;
     position: relative;
     overflow: hidden; }
     @media only screen and (max-width: 991px) {
+      .projects-wrapper .project:not(.open) .project-images,
+      .projects-wrapper .project:not(.open) .project-desc-wrapper {
+        width: 100% !important; } }
+    @media only screen and (min-device-width: 300px) and (max-device-width: 1025px) and (orientation: landscape) {
       .projects-wrapper .project:not(.open) .project-images,
       .projects-wrapper .project:not(.open) .project-desc-wrapper {
         width: 100% !important; } }
@@ -1602,9 +1606,9 @@ body.open {
       .projects-wrapper .project:not(.open) .project-images {
         width: 100%;
         height: 320px; } }
-    @media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (orientation: landscape) {
+    @media only screen and (min-device-width: 300px) and (max-device-width: 1025px) and (orientation: landscape) {
       .projects-wrapper .project:not(.open) .project-images {
-        height: 320px; } }
+        height: 450px !important; } }
     .projects-wrapper .project:not(.open) .project-images .slider {
       height: 100%;
       width: 100%;
