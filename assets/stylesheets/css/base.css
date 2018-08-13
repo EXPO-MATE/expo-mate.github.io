@@ -1470,9 +1470,7 @@ body.open {
 .projects-wrapper .project {
   width: 100%;
   position: relative;
-  overflow: hidden;
-  transition: all ease .5s;
-  transform-origin: 20% 40%; }
+  overflow: hidden; }
   .projects-wrapper .project .project-wrapper,
   .projects-wrapper .project .project-review {
     width: 100%;
@@ -1489,6 +1487,10 @@ body.open {
       order: 2; }
     .projects-wrapper .project:nth-child(even) .project-wrapper .project-desc-wrapper {
       order: 1; }
+  @media only screen and (min-width: 992px) {
+    .projects-wrapper .project {
+      transition: all ease .5s;
+      transform-origin: 20% 40%; } }
   .projects-wrapper .project.open {
     position: fixed;
     top: 0;

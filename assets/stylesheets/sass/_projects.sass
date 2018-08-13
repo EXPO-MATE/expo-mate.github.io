@@ -48,8 +48,9 @@ body.open
           order: 1
     position: relative
     overflow: hidden
-    transition: all ease .5s
-    transform-origin: 20% 40%
+    +respond-min-width(md)
+      transition: all ease .5s
+      transform-origin: 20% 40%
     &.open
       position: fixed
       top: 0
