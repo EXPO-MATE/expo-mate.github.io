@@ -137,13 +137,15 @@ $(function(){
 
 
 function sliderInit(projectElem){
+    console.log('Loading project number', projectElem);
     if(typeof projectElem === 'string'){
         $('#'+projectElem+' .slider').not('.slick-initialized').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 8000,
-            arrows: true
+            arrows: true,
+            swip: true
         });
     }
 }
