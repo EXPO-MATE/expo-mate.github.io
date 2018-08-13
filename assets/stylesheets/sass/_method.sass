@@ -182,3 +182,14 @@ $mobileTextOffset: 150px
         i
           font-size: 2em
           color: $method-text-color
+
+
+.de 
+  +respond-min-width(md)
+    #method #diagram .method-item.construction 
+      padding: 70px
+    #method .method-desc-wrapper .method-desc.construction
+      width: 270px
+      top: 55%
+      h3 
+        font-size: 1.5em

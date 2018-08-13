@@ -1239,6 +1239,15 @@ section#image-scroll {
       font-size: 2em;
       color: #fff; }
 
+@media only screen and (min-width: 992px) {
+  .de #method #diagram .method-item.construction {
+    padding: 70px; }
+  .de #method .method-desc-wrapper .method-desc.construction {
+    width: 270px;
+    top: 55%; }
+    .de #method .method-desc-wrapper .method-desc.construction h3 {
+      font-size: 1.5em; } }
+
 body.loading .content-wrapper {
   opacity: 0;
   overflow: hidden;
