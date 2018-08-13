@@ -137,19 +137,22 @@ $(function(){
 
 
 function sliderInit(projectElem){
-    if(typeof projectElem === 'string'){
-        $('#'+projectElem+' .slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            accessibility: true,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            adaptiveHeight: true,
-            arrows: true,
-            lazyLoad: 'onDemand',
-            swip: true,
-            cssEase: 'ease'
-        });
-    }
+    setTimeout(function(){
+        if(typeof projectElem === 'string'){
+            $('#'+projectElem+' .slider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                accessibility: true,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                adaptiveHeight: true,
+                arrows: true,
+                lazyLoad: 'onDemand',
+                swip: true,
+                cssEase: 'ease'
+            });
+        }
+    },100);
+    
 }
 
