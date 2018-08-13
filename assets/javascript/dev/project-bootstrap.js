@@ -84,6 +84,13 @@ $(function(){
                             document.location.href = "#" + parentID;
                             $('body').addClass('open');
                             sliderInit(parentID);
+
+
+                            var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+                            if(iOS){
+                                window.location.reload();
+                            }
+                            
                         }
                     });
 
@@ -95,6 +102,11 @@ $(function(){
                             document.location.href="#"+parentID;
                             $('body').addClass('open');
                             sliderInit(parentID);
+
+                            var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+                            if(iOS){
+                                window.location.reload();
+                            }
                         }
                     });
 
