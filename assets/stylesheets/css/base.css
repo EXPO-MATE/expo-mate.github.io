@@ -941,10 +941,11 @@ section#image-scroll {
       @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
         #footer #contact-info .row > div {
           width: 50% !important; } }
-    #footer #contact-info .contact-heading:first-child {
-      border: 0;
-      margin: 0;
-      padding: 0; }
+    @media only screen and (max-width: 991px) {
+      #footer #contact-info .contact-heading:first-child {
+        border: 0;
+        margin: 0;
+        padding: 0; } }
     @media only screen and (max-width: 991px) {
       #footer #contact-info .contact-heading {
         border-top: 1px solid #cccccc;
@@ -990,6 +991,9 @@ section#image-scroll {
         font-size: .75em; } }
     #footer #footer-bottom-liner p {
       text-align: center; }
+
+.de #footer #contact-info .contact-heading h3 {
+  word-spacing: normal !important; }
 
 .slick-prev,
 .slick-next {

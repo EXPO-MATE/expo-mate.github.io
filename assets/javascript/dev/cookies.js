@@ -8,10 +8,6 @@ function setCookie(name,value,days) {
         expires = "; expires=" + date.toUTCString();
     }
     document.cookie = name + "=" + (value || "")  + expires + "; path=/";
-
-    setTimeout(function(){
-        window.location.reload();
-    },20);
 }
 function getCookie(name) {
     var nameEQ = name + "=";
@@ -41,6 +37,12 @@ function chooseCookie(){
         } else {
             setCookie('lang','nl',7);
         }
+
+        setTimeout(function(){
+            window.location.reload();
+        },20);
+    } else {
+        $('body').addClass(activeCookie);
     }
 
     if (queryParam !== undefined && queryParam === 'de'){
@@ -50,6 +52,7 @@ function chooseCookie(){
     setTimeout(function(){
         $('#nav .active-loc').html(getCookie('lang'));
     },200);
+    
 }
 
 function getParameterByName(name, url) {

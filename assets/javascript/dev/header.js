@@ -12,6 +12,9 @@ $(function () {
         } else if ($(this).hasClass('loc')){
             eraseCookie('lang');
             setCookie('lang',navLink,7);
+            setTimeout(function(){
+                window.location.reload();
+            },20);
         } else if(navLink.indexOf('#') !== -1) {
             var linkPos = $(navLink).offset().top;
             if (navLink === '#footer') {

@@ -28,6 +28,10 @@ $(function(){
                 $body.removeClass('loading');
             }
 
+            if (loc === undefined) {
+                chooseCookie();
+            }
+
             if(nav) {
                 var navItem = $('#nav > ul > li ');
                 navItem.find('a[href="#preabout"]').html(nav.about);

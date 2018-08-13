@@ -23,6 +23,9 @@ $(function(){
 
                 if (loc === undefined) {
                     chooseCookie();
+                    setTimeout(function(){
+                        window.location.reload();
+                    },20);
                 }
 
                 $.each(projectDetail, function (index, item) {
