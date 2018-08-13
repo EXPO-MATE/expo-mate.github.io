@@ -85,10 +85,11 @@ $(function(){
                             $('body').addClass('open');
                             sliderInit(parentID);
 
-
                             var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
                             if(iOS){
-                                window.location.reload();
+                                setTimeout(function(){
+                                    window.location.reload();
+                                },200);
                             }
                             
                         }
@@ -105,7 +106,9 @@ $(function(){
 
                             var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
                             if(iOS){
-                                window.location.reload();
+                                setTimeout(function(){
+                                    window.location.reload();
+                                },200);
                             }
                         }
                     });
