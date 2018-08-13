@@ -137,15 +137,18 @@ $(function(){
 
 
 function sliderInit(projectElem){
-    console.log('Loading project number', projectElem);
     if(typeof projectElem === 'string'){
         $('#'+projectElem+' .slider').not('.slick-initialized').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
+            accessibility: true,
             autoplay: true,
-            autoplaySpeed: 8000,
+            autoplaySpeed: 3000,
+            adaptiveHeight: true,
             arrows: true,
-            swip: true
+            lazyLoad: 'onDemand',
+            swip: true,
+            cssEase: 'ease'
         });
     }
 }
