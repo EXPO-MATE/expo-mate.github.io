@@ -106,7 +106,7 @@
                                     <h1 data-content="header-content-title">Management in Authentic and Trending Exhibition Participations</h1>
 
                                     <div class="play-video-wrapper">
-                                        <i class="icon-play"></i>
+                                        <i class="icon-play" onClick="ga('send', hitType:'event',eventCategory:'Header', eventAction:'Play', eventLabel:'Play Video'});"></i>
                                     </div>
                                 </div>
 
@@ -437,12 +437,12 @@
                             </div>
                             <div class="col-sm-8 col-md-3 contact-content">
                                 <strong data-content="footer-contacts-jan-title">Jan Maas</strong><br />
-                                <a href="mailto:j.maas@expo-mate.com" data-content="footer-contacts-jan-email">j.maas@expo-mate.com</a>
-                                <a href="" target="_blank" data-content="footer-contacts-linkedin-jan"><span data-content="footer-contacts-linkedin-jan-title">Jan on </span> <i class="icon-linkedin"></i></a>
+                                <a href="mailto:j.maas@expo-mate.com" onClick="ga('send', hitType:'event',eventCategory:'Footer', eventAction:'linkedIn', eventLabel:'Jan Email'});" data-content="footer-contacts-jan-email">j.maas@expo-mate.com</a>
+                                <a href="" onClick="ga('send', hitType:'event',eventCategory:'Footer', eventAction:'linkedIn', eventLabel:'Jan LinkedIn'});" target="_blank" data-content="footer-contacts-linkedin-jan"><span data-content="footer-contacts-linkedin-jan-title">Jan on </span> <i class="icon-linkedin"></i></a>
 
                                 <strong style="margin-top: 20px; display: block" data-content="footer-contacts-niek-title">Niek van Gent</strong>
-                                <a href="" data-content="footer-contacts-niek-email">n.van.gent@expo-mate.com</a>
-                                <a href="" target="_blank" data-content="footer-contacts-linkedin-niek"><span data-content="footer-contacts-linkedin-niek-title">Niek on &nbsp;</span><i class="icon-linkedin"></i></a>
+                                <a href="" onClick="ga('send', hitType:'event',eventCategory:'Footer', eventAction:'linkedIn', eventLabel:'Niek Email'});" data-content="footer-contacts-niek-email">n.van.gent@expo-mate.com</a>
+                                <a href="" target="_blank" onClick="ga('send', hitType:'event',eventCategory:'Footer', eventAction:'linkedIn', eventLabel:'Niek LinkedIn'});" data-content="footer-contacts-linkedin-niek"><span data-content="footer-contacts-linkedin-niek-title">Niek on &nbsp;</span><i class="icon-linkedin"></i></a>
                             </div>
                             <div class="col-sm-4 col-md-1 contact-heading"><h3 data-content="footer-contacts-phone-header">Bel ons</h3></div>
                             <div class="col-sm-8 col-md-2 contact-content">
