@@ -64,9 +64,9 @@
                     </a>
 
                     <ul class="sub-list locales">
-                        <li><a class="loc" href="nl">Nederlands</a></li>
-                        <li><a class="loc" href="en">English</a></li>
-                        <li><a class="loc" href="de">Deutsch</a></li>
+                        <li><a class="loc" href="nl" onClick="ga('send', 'event', 'Navigation', 'Locale', 'Dutch');">Nederlands</a></li>
+                        <li><a class="loc" href="en" onClick="ga('send', 'event', 'Navigation', 'Locale', 'English');">English</a></li>
+                        <li><a class="loc" href="de" onClick="ga('send', 'event', 'Navigation', 'Locale', 'German');">Deutsch</a></li>
                     </ul>
                 </li>
             </ul>
@@ -94,7 +94,6 @@
             </div>
         </section>
 
-
         <footer id="footer">
             <div id="google-reviews-wrapper">
                 <h3>Testimonials</h3>
@@ -109,20 +108,23 @@
                         </div>
                         <div class="col-sm-8 col-md-3 contact-content">
                             <strong data-content="footer-contacts-jan-title">Jan Maas</strong><br />
-                            <a href="mailto:j.maas@expo-mate.com" data-content="footer-contacts-jan-email">j.maas@expo-mate.com</a>
-                            <a href="" target="_blank" data-content="footer-contacts-linkedin-jan"><span data-content="footer-contacts-linkedin-jan-title">Jan on </span> <i class="icon-linkedin"></i></a>
+                            <a href="mailto:j.maas@expo-mate.com" onClick="ga('send', 'event', 'Footer', 'Email', 'Email Jan');" data-content="footer-contacts-jan-email">j.maas@expo-mate.com</a>
+                            <a href="" onClick="ga('send', 'event', 'Footer', 'linkedIn', 'LinkedIn Jan');" target="_blank" data-content="footer-contacts-linkedin-jan"><span data-content="footer-contacts-linkedin-jan-title">Jan on </span> <i class="icon-linkedin"></i></a>
 
                             <strong style="margin-top: 20px; display: block" data-content="footer-contacts-niek-title">Niek van Gent</strong>
-                            <a href="" data-content="footer-contacts-niek-email">n.van.gent@expo-mate.com</a>
-                            <a href="" target="_blank" data-content="footer-contacts-linkedin-niek"><span data-content="footer-contacts-linkedin-niek-title">Niek on </span><i class="icon-linkedin"></i></a>
+                            <a href="" onClick="ga('send', 'event', 'Footer', 'Email', 'Email Jan');" data-content="footer-contacts-niek-email">n.van.gent@expo-mate.com</a>
+                            <a href="" target="_blank" onClick="ga('send', 'event', 'Footer', 'linkedIn', 'LinkedIn Niek');" data-content="footer-contacts-linkedin-niek"><span data-content="footer-contacts-linkedin-niek-title">Niek on &nbsp;</span><i class="icon-linkedin"></i></a>
                         </div>
                         <div class="col-sm-4 col-md-1 contact-heading"><h3 data-content="footer-contacts-phone-header">Bel ons</h3></div>
                         <div class="col-sm-8 col-md-2 contact-content">
-                            <strong data-content="footer-contacts-jan-title">Jan Maas</strong><br />
-                            <span data-content="footer-contacts-call-jan-phone">+31 6 50 28 18 91</span><br /><br />
-
-                            <strong data-content="footer-contacts-niek-title">Niek van Gent</strong><br />
-                            <span data-content="footer-contacts-call-niek-phone">+31 6 41 78 15 81</span><br /><br />
+                            <div>
+                                <strong data-content="footer-contacts-jan-title">Jan Maas</strong><br /> 
+                                <span data-content="footer-contacts-call-jan-phone">+31 6 50 28 18 91</span><br /><br />
+                            </div>
+                            <div>
+                                <strong data-content="footer-contacts-niek-title">Niek van Gent</strong><br />
+                                <span data-content="footer-contacts-call-niek-phone">+31 6 41 78 15 81</span><br /><br />
+                            </div>
                         </div>
                         <div class="col-sm-4 col-md-2 contact-heading"><h3 data-content="footer-contacts-visit-header">Bezoek ons</h3></div>
                         <div class="col-sm-8 col-md-2 contact-details-map" data-content="footer-contacts-visit-desc">
