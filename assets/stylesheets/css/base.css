@@ -1569,8 +1569,8 @@ body.open {
     position: relative; }
     .projects-wrapper .project:not(.open) .project-review .review-text {
       text-align: center;
-      max-width: 45em;
-      margin-top: 10px; }
+      max-width: 70%;
+      margin: 10px 0; }
       @media only screen and (max-width: 991px) {
         .projects-wrapper .project:not(.open) .project-review .review-text {
           margin: 5px 0 0 0; } }
