@@ -17,10 +17,7 @@
         },
         "description": {
           "type": "string",
-          "format": "html",
-          "options": {
-            "wysiwyg": false
-          }
+          "format": "textarea"
         },
         "images": {
           "type": "array",
@@ -53,10 +50,7 @@
             },
             "description": {
               "type": "string",
-              "format": "html",
-              "options": {
-                "wysiwyg": false
-              }
+              "format": "textarea"
             }
           }
         }

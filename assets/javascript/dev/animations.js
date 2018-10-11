@@ -74,9 +74,30 @@ function fireAnimations(){
     if(isHomePage && brandsElem.length > 0){
         if(brandsElem.isInViewport()){
             var brand = brandsElem.find('li');
-            if (!brandsAnimationHasRan) {
-                TweenMax.staggerFromTo(brand, .5, {css: {x: "-40", opacity: 0}}, {css:{x:"0", opacity: "1"}, delay: .2}, 0.2);
-                brandsAnimationHasRan = true;
+
+            if ($('.brandlist li').length > 5) {
+                $('.brandlist').slick({
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    arrows: false,
+                    swip: true,
+                    responsive: [
+                        {
+                          breakpoint: 600,
+                          settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1
+                          }
+                        }
+                    ]
+                });
+            } else {
+                if (!brandsAnimationHasRan) {
+                    TweenMax.staggerFromTo(brand, .5, {css: {x: "-40", opacity: 0}}, {css:{x:"0", opacity: "1"}, delay: .2}, 0.2);
+                    brandsAnimationHasRan = true;
+                }
             }
         }
     }
