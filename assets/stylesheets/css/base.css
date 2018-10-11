@@ -1566,9 +1566,10 @@ body.open {
     width: 100%;
     padding: 0;
     clear: both;
-    position: relative; }
+    position: relative;
+    text-align: center; }
     .projects-wrapper .project:not(.open) .project-review .review-text {
-      text-align: center;
+      display: inline-block;
       max-width: 70%;
       margin: 10px 0; }
       @media only screen and (max-width: 991px) {
@@ -1648,7 +1649,7 @@ body.open {
           display: block;
           cursor: pointer; }
   .projects-wrapper .project:not(.open) .project-desc-wrapper {
-    padding: 7% 100px;
+    padding: 3% 60px 0;
     text-align: left; }
     @media only screen and (max-width: 1199px) {
       .projects-wrapper .project:not(.open) .project-desc-wrapper {
@@ -1660,6 +1661,9 @@ body.open {
         clear: both;
         width: 100%;
         padding: 20px; } }
+    @media only screen and (min-device-width: 1600px) {
+      .projects-wrapper .project:not(.open) .project-desc-wrapper {
+        padding-top: 5%; } }
     @media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (orientation: landscape) {
       .projects-wrapper .project:not(.open) .project-desc-wrapper {
         background: #fff;

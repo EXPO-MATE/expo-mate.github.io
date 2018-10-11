@@ -65,7 +65,7 @@ body.open
         width: 100vw
       .project-review
         display: none
-        .review-date 
+        .review-date
           display: none
       .project-close
         position: absolute
@@ -116,8 +116,9 @@ body.open
         padding: 0
         clear: both
         position: relative
+        text-align: center
         .review-text
-          text-align: center
+          display: inline-block
           max-width: 70%
           margin: 10px 0
           +respond-max-width(sm)
@@ -160,7 +161,7 @@ body.open
       .project-images,
       .project-desc-wrapper
         width: 50%
-        margin: 0 
+        margin: 0
         padding: 0
         +respond-max-width(sm)
           width: 100% !important
@@ -190,7 +191,7 @@ body.open
               display: block
               cursor: pointer
       .project-desc-wrapper
-        padding: 7% 100px
+        padding: 3% 60px 0
         +respond-max-width(md)
           padding-top: 3%
         +respond-max-width(sm)
@@ -199,6 +200,8 @@ body.open
           clear: both
           width: 100%
           padding: 20px
+        @media only screen and (min-device-width: 1600px)
+          padding-top: 5%
         @media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (orientation: landscape)
           background: $bg-color
           position: relative
