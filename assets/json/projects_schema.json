@@ -1,0 +1,65 @@
+{
+    "type": "array",
+    "options": {
+      "collapsed": true
+    },
+    "items": {
+      "type": "object",
+      "options": {
+        "collapsed": true
+      },
+      "properties": {
+        "header": {
+          "type": "string"
+        },
+        "subTitle": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string",
+          "format": "html",
+          "options": {
+            "wysiwyg": false
+          }
+        },
+        "images": {
+          "type": "array",
+          "format": "table",
+          "items": {
+            "type": "object",
+            "header": "images",
+            "properties": {
+              "src": {
+                "type": "string",
+                "default": "/assets/images/projects/*/*.jpg"
+              },
+              "alt": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "review": {
+          "type": "object",
+          "properties": {
+            "author": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "stars": {
+              "type": "integer"
+            },
+            "description": {
+              "type": "string",
+              "format": "html",
+              "options": {
+                "wysiwyg": false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
