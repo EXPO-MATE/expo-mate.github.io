@@ -27,12 +27,12 @@
           "type": "object",
           "properties": {
               "homepage": {
-                "$ref": "homepage_schema.json",
+                "$ref": "assets/json/homepage_schema.json",
                 "title": "Homepage"
               }
             },
             "projects": {
-              "$ref": "projects_schema.json",
+              "$ref": "assets/json/projects_schema.json",
               "title": "Projects"
             }
           }
