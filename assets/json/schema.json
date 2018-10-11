@@ -703,7 +703,7 @@
                     "type": "string",
                     "format": "html",
                     "options": {
-                      "wysiwyg": true
+                      "wysiwyg": false
                     }
                   },
                   "images": {
@@ -738,7 +738,7 @@
                         "type": "string",
                         "format": "html",
                         "options": {
-                          "wysiwyg": true
+                          "wysiwyg": false
                         }
                       }
                     }
@@ -1451,7 +1451,7 @@
                     "type": "string",
                     "format": "html",
                     "options": {
-                      "wysiwyg": true
+                      "wysiwyg": false
                     }
                   },
                   "images": {
@@ -1486,7 +1486,7 @@
                         "type": "string",
                         "format": "html",
                         "options": {
-                          "wysiwyg": true
+                          "wysiwyg": false
                         }
                       }
                     }
@@ -2199,7 +2199,7 @@
                     "type": "string",
                     "format": "html",
                     "options": {
-                      "wysiwyg": true
+                      "wysiwyg": false
                     }
                   },
                   "images": {
@@ -2234,7 +2234,7 @@
                         "type": "string",
                         "format": "html",
                         "options": {
-                          "wysiwyg": true
+                          "wysiwyg": false
                         }
                       }
                     }
