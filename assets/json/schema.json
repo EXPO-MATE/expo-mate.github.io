@@ -1,116 +1,114 @@
 {
-  "title": "expoMate",
-  "type": "object",
-  "properties": {
-    "nl": {
-      "type": "object",
-      "options": {
-        "collapsed": true
-      },
-      "properties": {
-        "nav": {
-          "type": "object",
-          "options": {
-            "collapsed": true
-          },
-          "description": "links in menu navigation",
-          "properties": {
-            "labels": {
-              "type": "object",
-              "properties": {
-                "type": "string"
-              }
-            }
-          }
-        },
-        "pages": {
-          "type": "object",
-          "properties": {
-              "homepage": {
-                "$ref": "/assets/json/homepage_schema.json",
-                "title": "Homepage"
-              }
-            },
-            "projects": {
-              "$ref": "/assets/json/projects_schema.json",
-              "title": "Projects"
-            }
-          }
-
-      }
-    },
-    "de": {
-      "type": "object",
-      "options": {
-        "collapsed": true
-      },
-      "properties": {
-        "nav": {
-          "type": "object",
-          "options": {
-            "collapsed": true
-          },
-          "description": "links in menu navigation",
-          "properties": {
-            "labels": {
-              "type": "object",
-              "properties": {
-                "type": "string"
-              }
-            }
-          }
-        },
-        "pages": {
-          "type": "object",
-          "properties": {
-              "homepage": {
-                "$ref": "/assets/json/homepage_schema.json",
-                "title": "Homepage"
-              }
-            },
-            "projects": {
-              "$ref": "/assets/json/projects_schema.json",
-              "title": "Projects"
-            }
-          }
-      }
-    },
-    "en": {
-      "type": "object",
-      "options": {
-        "collapsed": true
-      },
-      "properties": {
-        "nav": {
-          "type": "object",
-          "options": {
-            "collapsed": true
-          },
-          "description": "links in menu navigation",
-          "properties": {
-            "labels": {
-              "type": "object",
-              "properties": {
-                "type": "string"
-              }
-            }
-          }
-        },
-        "pages": {
-          "type": "object",
-          "properties": {
-              "homepage": {
-                "$ref": "/assets/json/homepage_schema.json",
-                "title": "Homepage"
-              }
-            },
-            "projects": {
-              "$ref": "/assets/json/projects_schema.json",
-              "title": "Projects"
-            }
-          }
-
-      }
-    }
-  }
+	"title": "expoMate",
+	"type": "object",
+	"properties": {
+		"nl": {
+			"type": "object",
+			"options": {
+				"collapsed": true
+			},
+			"properties": {
+				"nav": {
+					"type": "object",
+					"options": {
+						"collapsed": true
+					},
+					"description": "links in menu navigation",
+					"properties": {
+						"labels": {
+							"type": "object",
+							"properties": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"pages": {
+					"type": "object",
+					"properties": {
+						"homepage": {
+							"$ref": "/assets/json/homepage_schema.json",
+							"title": "Homepage"
+						},
+						"projects": {
+							"$ref": "/assets/json/projects_schema.json",
+							"title": "Projects"
+						}
+					}
+				}
+			}
+		},
+		"de": {
+			"type": "object",
+			"options": {
+				"collapsed": true
+			},
+			"properties": {
+				"nav": {
+					"type": "object",
+					"options": {
+						"collapsed": true
+					},
+					"description": "links in menu navigation",
+					"properties": {
+						"labels": {
+							"type": "object",
+							"properties": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"pages": {
+					"type": "object",
+					"properties": {
+						"homepage": {
+							"$ref": "/assets/json/homepage_schema.json",
+							"title": "Homepage"
+						},
+						"projects": {
+							"$ref": "/assets/json/projects_schema.json",
+							"title": "Projects"
+						}
+					}
+				}
+			}
+		},
+		"en": {
+			"type": "object",
+			"options": {
+				"collapsed": true
+			},
+			"properties": {
+				"nav": {
+					"type": "object",
+					"options": {
+						"collapsed": true
+					},
+					"description": "links in menu navigation",
+					"properties": {
+						"labels": {
+							"type": "object",
+							"properties": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"pages": {
+					"type": "object",
+					"properties": {
+						"homepage": {
+							"$ref": "/assets/json/homepage_schema.json",
+							"title": "Homepage"
+						},
+						"projects": {
+							"$ref": "/assets/json/projects_schema.json",
+							"title": "Projects"
+						}
+					}
+				}
+			}
+		}
+	}
 }
