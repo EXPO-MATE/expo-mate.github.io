@@ -88,7 +88,7 @@ function fireAnimations(){
 
                 $.each(valueItem, function(){
                     var textElem = $(this).find('strong');
-                    var randomNum = (Math.random() * (0.5 - 2.9) + 2.9).toFixed(2);
+                    var randomNum = (Math.random() * (0.5 - 1.5) + 1.5).toFixed(2);
                     TweenMax.fromTo(textElem, 1, {css: {x: "-10", opacity: 0}}, {css:{x:"0", opacity: "1"}, delay: randomNum});
                 });
 
