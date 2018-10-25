@@ -373,14 +373,14 @@
               "type": "object",
               "properties": {
                 "src": {
-                  "type": "string"
-                },
-                "links": [
-                  {
-                    "href": "https://expo-mate.github.io/{{self}}",
-                    "mediaType": "image/jpg"
-                  }
-                ]
+                  "type": "string",
+                  "links": [
+                    {
+                      "href": "https://expo-mate.github.io/{{self}}",
+                      "mediaType": "image/jpg"
+                    }
+                  ]
+                }
               }
             },
             "type": "object",
@@ -434,17 +434,17 @@
                     "type": "object",
                     "properties": {
                       "src": {
-                        "type": "string"
+                        "type": "string",
+                        "links": [
+                          {
+                            "href": "https://expo-mate.github.io/{{self}}",
+                            "mediaType": "image/jpg"
+                          }
+                        ]
                       },
                       "alt": {
                         "type": "string"
-                      },
-                      "links": [
-                        {
-                          "href": "https://expo-mate.github.io/{{self}}",
-                          "mediaType": "image/jpg"
-                        }
-                      ]
+                      }
                     }
                   }
                 }
@@ -462,17 +462,17 @@
                     "type": "object",
                     "properties": {
                       "src": {
-                        "type": "string"
+                        "type": "string",
+                        "links": [
+                          {
+                            "href": "https://expo-mate.github.io/{{self}}",
+                            "mediaType": "image/jpg"
+                          }
+                        ]
                       },
                       "alt": {
                         "type": "string"
-                      },
-                      "links": [
-                        {
-                          "href": "https://expo-mate.github.io/{{self}}",
-                          "mediaType": "image/jpg"
-                        }
-                      ]
+                      }
                     }
                   }
                 }

@@ -28,7 +28,13 @@
             "properties": {
               "src": {
                 "type": "string",
-                "default": "/assets/images/projects/*/*.jpg"
+                "default": "/assets/images/projects/*/*.jpg",
+                "links": [
+                  {
+                    "href": "https://expo-mate.github.io/{{self}}",
+                    "mediaType": "image/jpg"
+                  }
+                ]
               },
               "alt": {
                 "type": "string"
