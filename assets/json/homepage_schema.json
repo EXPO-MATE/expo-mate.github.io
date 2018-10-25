@@ -78,17 +78,18 @@
                   "header": "Image",
                   "properties": {
                     "src": {
-                      "type": "string"
+                      "type": "string",
+                      "default": "/assets/images/brands/*/*.jpg",
+                      "links": [
+                        {
+                          "href": "https://expo-mate.github.io/{{self}}",
+                          "mediaType": "image/jpg"
+                        }
+                      ]
                     },
                     "alt": {
                       "type": "string"
-                    },
-                    "links": [
-                      {
-                        "href": "https://expo-mate.github.io/{{self}}",
-                        "mediaType": "image/jpg"
-                      }
-                    ]
+                    }
                   }
                 }
               }
