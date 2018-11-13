@@ -33,10 +33,36 @@ $(function(){
 
                     if (imageContent && imageContent.length > 0) {
                         $.each(imageContent, function (index, item) {
-                            if(item){
-                                imageArray.push('<div class="project-image" style="background-image: url('+item.src+')"></div>')
+                            var mediaSrc = item.src
+                            , isImage = false
+                            , fileType = mediaSrc.split('.').pop().toLowerCase();
+
+                            if (fileType === 'jpg' || fileType === 'png') {
+                                isImage = true;
+                            }
+
+                            if(item && isImage){
+                                imageArray.push('<div class="project-image" style="background-image: url('+mediaSrc+')"></div>')
+                            } else {
+                                imageArray.push('<div class="project-image">\n' +
+                                '<div class="youtube-video-embed embed-responsive embed-responsive-16by9" id="video">\n' +
+                                '<span>\n' +
+                                '    <iframe\n' +
+                                '        id="player"\n' +
+                                '        class="youtube-video embed-responsive-item"\n' +
+                                '        frameborder="0"\n' +
+                                '        allowfullscreen="1"\n' +
+                                '        allow="autoplay; encrypted-media"\n' +
+                                '        title="YouTube video player"\n' +
+                                '         src="https://www.youtube.com/embed/'+ mediaSrc +'?autoplay=0&rel=0&fs=1&enablejsapi=1">\n' +
+                                '    </iframe>\n' +
+                                '  </span>\n' +
+                                '  </div>\n' +
+                                ' </div>')
                             }
                         });
+                    } else {
+
                     }
 
                     section.append('<div class="project" id="project'+count+'">\n' +
@@ -91,7 +117,7 @@ $(function(){
                                     window.location.reload();
                                 },200);
                             }
-                            
+
                         }
                     });
 
@@ -142,7 +168,7 @@ $(function(){
                         }
                     }
                 });
-            }, 
+            },
             error: function (err) {
                 chooseCookie();
             }
@@ -165,6 +191,6 @@ function sliderInit(projectElem){
             });
         }
     },100);
-    
+
 }
 
