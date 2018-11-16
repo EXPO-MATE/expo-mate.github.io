@@ -500,10 +500,12 @@
                   "header": "comparison",
                   "properties": {
                     "before": {
-                      "type": "string"
+                      "type": "string",
+                      "default": "/assets/images/projects/comparison/*/slider-before.jpg"
                     },
                     "after": {
-                      "type": "string"
+                      "type": "string",
+                      "default": "/assets/images/projects/comparison/*/slider-after.jpg"
                     }
                   }
                 }
