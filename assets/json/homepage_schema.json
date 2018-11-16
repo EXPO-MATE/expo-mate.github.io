@@ -501,11 +501,23 @@
                   "properties": {
                     "before": {
                       "type": "string",
-                      "default": "/assets/images/projects/comparison/*/slider-before.jpg"
+                      "default": "/assets/images/comparison/*/slider-before.jpg",
+                      "links": [
+                        {
+                          "href": "https://expo-mate.github.io/{{self}}",
+                          "mediaType": "image/jpg"
+                        }
+                      ]
                     },
                     "after": {
                       "type": "string",
-                      "default": "/assets/images/projects/comparison/*/slider-after.jpg"
+                      "default": "/assets/images/comparison/*/slider-after.jpg",
+                      "links": [
+                        {
+                          "href": "https://expo-mate.github.io/{{self}}",
+                          "mediaType": "image/jpg"
+                        }
+                      ]
                     }
                   }
                 }
