@@ -26,12 +26,18 @@ $(function() {
                         testimonial.append('<div class="review" id="' + identifier + '">\n' +
                             '               <div class="review-author">' + author + '</div>\n' +
                             '               <div class="review-date">' + reviewDate + '</div>\n' +
-                            '               <div class="review-stars"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full fifth"></i></div>\n' +
+                            '               <div class="review-stars">\n'+
+                            '                   <i class="icon-star-full"></i>\n' +
+                            '                   <i class="icon-star-full"></i>\n' +
+                            '                   <i class="icon-star-full"></i>\n' +
+                            '                   <i class="icon-star-full"></i>\n' +
+                            '                   <span></span>\n' +
+                            '               </div>\n' +
                             '               <div class="review-text">' + review.description + '</div>\n' +
                             '            </div>');
 
-                        if (starCount === 4) {
-                            $('.review-stars').find('.fifth').remove();
+                        if (starCount > 4) {
+                            $('.review#'+identifier).find('.review-stars > span').append('<i class="icon-star-full"></i>');
                         }
                     }
                 }
