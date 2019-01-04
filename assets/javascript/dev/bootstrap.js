@@ -79,13 +79,20 @@ $(function () {
             headerElem.addClass('play');
             headerElem.find('.video-container').addClass('play');
             var url = './assets/json/content.json';
-            $.getJSON(url, function(data) {
-                var loc = getCookie('lang');
-                var locData = data[loc];
-                var homepage = locData.pages.homepage;
-                var header = homepage.header.content;
 
-                $('.youtube-video-embed iframe').attr('id', header.youtubeURL).attr('src', 'https://www.youtube.com/embed/' + header.youtubeURL + '?autoplay=0&rel=0&fs=1&enablejsapi=1')
+            $.ajax({
+                url: url,
+                scriptCharset: "utf-8",
+                type: "GET",
+                success: function (data) {
+                    var actual = JSON.parse(decodeURIComponent(escape(window.atob(data))));
+                    var loc = getCookie('lang');
+                    var locData = actual[loc];
+                    var homepage = locData.pages.homepage;
+                    var header = homepage.header.content;
+
+                    $('.youtube-video-embed iframe').attr('id', header.youtubeURL).attr('src', 'https://www.youtube.com/embed/' + header.youtubeURL + '?autoplay=0&rel=0&fs=1&enablejsapi=1')
+                }
             });
         });
 
