@@ -658,7 +658,7 @@ section.content .secondary-offset-bg-color {
         display: none; } }
   #header .background-video {
     width: 110%;
-    animation: fadein 1s ease; }
+    animation: fadein 1.5s ease .5s; }
   #header .container {
     position: absolute;
     left: 0;

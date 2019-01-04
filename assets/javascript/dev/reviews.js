@@ -18,12 +18,13 @@ $(function() {
                     , desc = review.description || ''
                     , reviewDate = review.date || ''
                     , identifier = author.replace(/[^A-Z0-9]+/ig, "-").toLowerCase()
-                    , starCount = review.stars || '';
+                    , starCount = review.stars || ''
+                    , count = parseInt(index) + 1;
 
                 if (review && review !== undefined && desc !== '' && desc !== undefined || starCount !== '' && starCount !== undefined) {
                     testimonial.addClass('hidden');
                     if (testimonial.length > 0) {
-                        testimonial.append('<div class="review" id="' + identifier + '">\n' +
+                        testimonial.append('<div class="review" id="' + identifier + count + '">\n' +
                             '               <div class="review-author">' + author + '</div>\n' +
                             '               <div class="review-date">' + reviewDate + '</div>\n' +
                             '               <div class="review-stars">\n'+
@@ -37,7 +38,7 @@ $(function() {
                             '            </div>');
 
                         if (starCount > 4) {
-                            $('.review#'+identifier).find('.review-stars > span').append('<i class="icon-star-full"></i>');
+                            $('.review#'+identifier + count).find('.review-stars > span').append('<i class="icon-star-full"></i>');
                         }
                     }
                 }
