@@ -657,7 +657,8 @@ section.content .secondary-offset-bg-color {
       #header .background-video .screen {
         display: none; } }
   #header .background-video {
-    width: 110%; }
+    width: 110%;
+    animation: fadein 1.5s ease .5s; }
   #header .container {
     position: absolute;
     left: 0;
@@ -816,6 +817,12 @@ body.projects #header .logo {
       width: 100px;
       height: 125px;
       margin: 0 auto 0; } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: .7; } }
 
 body, html {
   background: #fff;

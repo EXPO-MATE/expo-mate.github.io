@@ -22,6 +22,7 @@
         display: none
   .background-video
     width: 110%
+    animation: fadein 1.5s ease .5s
   .container
     position: absolute
     left: 0
@@ -166,3 +167,10 @@ body.projects
         width: 100px
         height: 125px
         margin: 0 auto 0
+
+
+@keyframes fadein
+    from
+      opacity: 0
+    to
+      opacity: .7
