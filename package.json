@@ -6,7 +6,8 @@
     "homepage": "http://expo-mate.com",
     "author": "Jan Smolders",
     "dependencies": {
-        "gulp": "^3.9.1"
+        "gulp": "^3.9.1",
+        "natives": "^1.1.6"
     },
     "devDependencies": {
         "gulp-concat": "^2.6.1",
