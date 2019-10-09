@@ -31,6 +31,7 @@ $(function(){
                     }, 
                     error: function (err) {
                         alert.addClass('error').removeClass('hidden').html('Something went wrong:', err);
+						console.log('can not connect to Github for data', err);
                     } 
                 }),
                 $.ajax({
@@ -44,6 +45,7 @@ $(function(){
                     }, 
                     error: function (err) {
                         alert.addClass('error').removeClass('hidden').html('Something went wrong:', err);
+						console.log('can not connect to Github for schema', err);
                     }
                 })
 
