@@ -28,6 +28,7 @@ $(function(){
                     type: 'GET',
                     success: function (data) {
                         dataStore.data = data;
+						console.log('Got some data!', data);
                     }, 
                     error: function (err) {
                         alert.addClass('error').removeClass('hidden').html('Something went wrong:', err);
@@ -42,6 +43,7 @@ $(function(){
                     type: 'GET',
                     success: function (schema) {
                         dataStore.schema = schema;
+						console.log('Got some schemas!', schema);
                     }, 
                     error: function (err) {
                         alert.addClass('error').removeClass('hidden').html('Something went wrong:', err);
