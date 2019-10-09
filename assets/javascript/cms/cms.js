@@ -115,6 +115,7 @@ $(function(){
                                 didSubmit = false;
                             }).catch(function(err){
                                 alert.addClass('error').removeClass('hidden').html('Something went wrong:', err);
+								console.log('Commit error!', err);
                             });
                         }
                     });
@@ -125,6 +126,7 @@ $(function(){
                     });
                 } else {
                     alert.addClass('error').removeClass('hidden').html('Something is wrong with the JSON. Make sure it is valid');
+					console.log('Bad JSON!');
 				}
             });
         }
