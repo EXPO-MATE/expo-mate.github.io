@@ -22,6 +22,7 @@
                 "links": [
                   {
                     "href": "https://expo-mate.github.io/{{self}}",
+					"rel": "author",
                     "mediaType": "image/jpg"
                   }
                 ]
@@ -32,6 +33,7 @@
                 "links": [
                   {
                     "href": "https://expo-mate.github.io/{{self}}",
+					"rel": "author",
                     "mediaType": "video/mp4"
                   }
                 ]
@@ -42,6 +44,7 @@
                 "links": [
                   {
                     "href": "https://expo-mate.github.io/{{self}}",
+					"rel": "author",
                     "mediaType": "video/webm"
                   }
                 ]
@@ -83,6 +86,7 @@
                       "links": [
                         {
                           "href": "https://expo-mate.github.io/{{self}}",
+						  "rel": "author",
                           "mediaType": "image/jpg"
                         }
                       ]
@@ -213,6 +217,7 @@
                           "links": [
                             {
                               "href": "https://expo-mate.github.io/{{self}}",
+							  "rel": "author",
                               "mediaType": "image/jpg"
                             }
                           ]
@@ -377,6 +382,7 @@
                   "links": [
                     {
                       "href": "https://expo-mate.github.io/{{self}}",
+					  "rel": "author",
                       "mediaType": "image/jpg"
                     }
                   ]
@@ -438,6 +444,7 @@
                         "links": [
                           {
                             "href": "https://expo-mate.github.io/{{self}}",
+							"rel": "author",
                             "mediaType": "image/jpg"
                           }
                         ]
@@ -466,6 +473,7 @@
                         "links": [
                           {
                             "href": "https://expo-mate.github.io/{{self}}",
+							"rel": "author",
                             "mediaType": "image/jpg"
                           }
                         ]
@@ -505,6 +513,7 @@
                       "links": [
                         {
                           "href": "https://expo-mate.github.io/{{self}}",
+						  "rel": "author",
                           "mediaType": "image/jpg"
                         }
                       ]
@@ -515,6 +524,7 @@
                       "links": [
                         {
                           "href": "https://expo-mate.github.io/{{self}}",
+						  "rel": "author",
                           "mediaType": "image/jpg"
                         }
                       ]
@@ -549,6 +559,7 @@
                       },
                       "links": {
                         "type": "object",
+						"rel": "author",
                         "properties": {
                           "email": {
                             "type": "object",
@@ -593,6 +604,7 @@
                       },
                       "links": {
                         "type": "object",
+						"rel": "author",
                         "properties": {
                           "email": {
                             "type": "object",

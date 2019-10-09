@@ -32,6 +32,7 @@
                 "links": [
                   {
                     "href": "https://expo-mate.github.io/{{self}}",
+					"rel": "author",
                     "mediaType": "image/jpg"
                   }
                 ]
