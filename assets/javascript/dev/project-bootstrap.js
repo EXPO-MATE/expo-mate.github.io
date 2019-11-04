@@ -2,8 +2,6 @@ $(function(){
     // Load projects
     if ($('body').hasClass('projects')){
         var url = './assets/json/content.bin';
-        var hash = window.location.hash;
-
         $.ajax({
             url: url,
             scriptCharset: "utf-8",
@@ -21,9 +19,9 @@ $(function(){
                 }
 
                 $.each(projectDetail, function (index, item) {
-                    var imageArray = []
-                        , imageContent = item.images
-                        , count = parseInt(index) + 1
+                    var imageContent = item.images
+                        , overviewImg = imageContent[0].src || ''
+                        , count = parseInt(index)
                         , review = item.review
                         , author = review.author || ''
                         , desc = review.description || ''
@@ -31,50 +29,15 @@ $(function(){
                         , identifier = author.replace(/[^A-Z0-9]+/ig, "-").toLowerCase()
                         , starCount = review.stars || '';
 
-                    if (imageContent && imageContent.length > 0) {
-                        $.each(imageContent, function (index, item) {
-                            var mediaSrc = item.src
-                            , isImage = false
-                            , fileType = mediaSrc.split('.').pop().toLowerCase();
-
-                            if (fileType === 'jpg' || fileType === 'png') {
-                                isImage = true;
-                            }
-
-                            if(item && isImage){
-                                imageArray.push('<div class="project-image" style="background-image: url('+mediaSrc+')"></div>')
-                            } else {
-                                imageArray.push('<div class="project-image">\n' +
-                                '<div class="youtube-video-embed embed-responsive embed-responsive-16by9" id="video">\n' +
-                                '<span>\n' +
-                                '    <iframe\n' +
-                                '        id="player"\n' +
-                                '        class="youtube-video embed-responsive-item"\n' +
-                                '        frameborder="0"\n' +
-                                '        allowfullscreen="1"\n' +
-                                '        allow="autoplay; encrypted-media"\n' +
-                                '        title="YouTube video player"\n' +
-                                '         src="https://www.youtube.com/embed/'+ mediaSrc +'?autoplay=0&rel=0&fs=1&enablejsapi=1">\n' +
-                                '    </iframe>\n' +
-                                '  </span>\n' +
-                                '  </div>\n' +
-                                ' </div>')
-                            }
-                        });
-                    } else {
-
-                    }
-
-                    section.append('<div class="project" id="project'+count+'">\n' +
-                                    '	<div class="project-close"></div>\n' +
+                    section.append('<div class="project" id="project-'+count+'">\n' +
                                     '	<div class="project-wrapper">\n' +
-                                    '		<div class="project-images">\n' +
-                                    '			<div class="slider">'+imageArray.join("")+'</div>\n' +
+                                    '		<div class="project-image">\n' +
+                                    '       <div data-project="'+count+'" class="project-overview-image" style="background-image: url('+ overviewImg +')"></div>\n' +
                                     '		</div>\n' +
                                     '		<div class="project-desc-wrapper">\n' +
                                     '			<div class="project-desc-content">\n' +
                                     '				<div class="project-header">\n' +
-                                    '					<h2 class="project-title">'+item.header+'</h2>\n' +
+                                    '					<h2 class="project-title" data-project="'+count+'">'+item.header+'</h2>\n' +
                                     '					<div class="project-sub-title">'+item.subTitle+'</div>\n' +
                                     '				</div>\n' +
                                     '				<div class="project-desc"> \n' +
@@ -109,51 +72,6 @@ $(function(){
                         $('#project'+count).find('.read-review').addClass('hidden');
                     }
 
-                    $('.project-images').on('click', function(){
-                        if(!$('body').hasClass('open')) {
-                            $(this).parent().parent('.project').addClass('open');
-                            var parentID = $(this).parent().parent('.project').attr('id');
-                            document.location.href = "#" + parentID;
-                            $('body').addClass('open');
-                            sliderInit(parentID);
-
-                            var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-                            if(iOS){
-                                setTimeout(function(){
-                                    window.location.reload();
-                                },200);
-                            }
-
-                        }
-                    });
-
-                    $('.project-title').on('click', function(){
-                        if(!$('body').hasClass('open')){
-                            var parentElem = $(this).parent().parent().parent().parent().parent();
-                            parentElem.addClass('open');
-                            var parentID = parentElem.attr('id');
-                            document.location.href="#"+parentID;
-                            $('body').addClass('open');
-                            sliderInit(parentID);
-
-                            var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-                            if(iOS){
-                                setTimeout(function(){
-                                    window.location.reload();
-                                },200);
-                            }
-                        }
-                    });
-
-                    $('.project-close').on('click', function() {
-                        $('body').removeClass('open');
-                        $(this).parent('.project').removeClass('open');
-                        var parentID = $(this).parent('.project').attr('id');
-                        $('#'+parentID+' .slider').slick("unslick");
-                        window.location.hash="";
-                        document.getElementById(parentID).scrollIntoView(true);
-                    });
-
                     $('.read-review').on('click', function(e){
                         e.preventDefault();
                         var count = $(this).attr('data-count');
@@ -163,40 +81,122 @@ $(function(){
                     $('.review-close').on('click', function(){
                         $(this).parent().removeClass('show').parent('.project').removeClass('show-review');
                     });
-
-                    if(hash && hash !== undefined){
-                        hash = window.location.hash.substring(1);
-                        var projectID = "project"+count;
-                        if (projectID === hash) {
-                            $('#'+hash).addClass('open');
-                            $('body').addClass('open');
-                            sliderInit(projectID);
-                        }
-                    }
                 });
             },
             error: function (err) {
                 chooseCookie();
             }
         });
+
+        // modal image handler
+        $(document).on("click", ".project-title", function(e){
+            var that = $(this);
+            showModal(e, that);
+        });
+
+        $(document).on("click", ".project-overview-image", function(e){
+            var that = $(this);
+            showModal(e, that);
+        });
+
+        $(document).on("click", ".modal-close", function(e) {
+            var that = $(this);
+            closeModal(e, that);
+        });
+
+        $(document).on("click", ".modal", function(e) {
+            if (e.target !== this)
+                return;
+            var that = $(this);
+            closeModal(e, that);
+        });
     }
 });
 
+function closeModal(e, that){
+    $('body').removeClass('open');
+    var parentID = that.parent().data('project');
+    if(that.hasClass('modal')) {
+        var parentID = that.data('project');
+    }
+    $('.slider').slick("unslick");
+    document.getElementById('project-'+parentID).scrollIntoView(true);
+}
 
-function sliderInit(projectElem){
-    setTimeout(function(){
-        if(typeof projectElem === 'string'){
-            $('#'+projectElem+' .slider').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 3000,
-                arrows: true,
-                lazyLoad: 'onDemand',
-                swip: true
+function showModal(e, that){
+    e.preventDefault();
+    if(!$('body').hasClass('open')) {
+        var projectID = that.data('project');
+        if (projectID !== undefined) {
+            $('.modal').data('project', projectID);
+            $('body').addClass('open');
+
+            $.ajax({
+                url: './assets/json/content.bin',
+                scriptCharset: "utf-8",
+                type: "GET",
+                success: function (data) {
+                    var actual = JSON.parse(decodeURIComponent(escape(window.atob(data))))
+                    , loc = getCookie('lang')
+                    , projectDetail = actual[loc].pages.projects
+                    , sliderElems = []
+                    , imageContent = projectDetail[projectID].images;
+
+                    if (imageContent && imageContent.length > 0) {
+                        $.each(imageContent, function (index, item) {
+                            var mediaSrc = item.src
+                            , isImage = false
+                            , fileType = mediaSrc.split('.').pop().toLowerCase();
+
+                            if (fileType === 'jpg' || fileType === 'png') {
+                                isImage = true;
+                            }
+
+                            if(item && isImage){
+                                sliderElems.push('<div class="project-image">\n' +
+                                                    '<img src="'+mediaSrc+'" alt="'+item.header+'" />\n' +
+                                                '</div>')
+                            } else {
+                                sliderElems.push('<div class="project-image youtube">\n' +
+                                '<div class="youtube-video-embed embed-responsive embed-responsive-16by9" id="video">\n' +
+                                '<span>\n' +
+                                '    <iframe\n' +
+                                '        id="player"\n' +
+                                '        class="youtube-video embed-responsive-item"\n' +
+                                '        frameborder="0"\n' +
+                                '        allowfullscreen="1"\n' +
+                                '        allow="autoplay; encrypted-media"\n' +
+                                '        title="YouTube video player"\n' +
+                                '         src="https://www.youtube.com/embed/'+ mediaSrc +'?autoplay=0&rel=0&fs=1&enablejsapi=1">\n' +
+                                '    </iframe>\n' +
+                                '  </span>\n' +
+                                '  </div>\n' +
+                                ' </div>')
+                            }
+                        });
+                    }
+
+                    sliderInit(sliderElems);
+                }
             });
         }
-    },100);
+    }
+}
 
+
+function sliderInit(sliderElems){
+    $('.slider').append(sliderElems);
+
+    setTimeout(function(){
+        $('.slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: true,
+            lazyLoad: 'onDemand',
+            swip: true
+        });
+    },100);
 }
 

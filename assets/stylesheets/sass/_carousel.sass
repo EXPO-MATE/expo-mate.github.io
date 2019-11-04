@@ -10,7 +10,11 @@
   height: 30px
   position: absolute
   top: 45%
-  left: 20px
+  left: -40px
+  +respond-max-width(xs)
+    left: 20px
+  @media only screen and (min-device-width: 300px) and (max-device-width: 1025px) and (orientation: landscape)
+    left: -40px
   z-index: 8
   &:before
     font-family: $font_0
@@ -26,7 +30,11 @@
     text-shadow: 0 0 5px #333
 .slick-next
   left: auto
-  right: 20px
+  right: -40px
+  +respond-max-width(xs)
+    right: 20px
+  @media only screen and (min-device-width: 300px) and (max-device-width: 1025px) and (orientation: landscape)
+    right: -40px
   &:before
     content: "\e906"
 .slick-track
