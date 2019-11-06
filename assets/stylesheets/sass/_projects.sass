@@ -44,6 +44,9 @@ body
 
   .project
     width: 100%
+    &.show-review
+      .read-review
+        display: none!important
     .project-wrapper,
     .project-review
       width: 100%
@@ -89,6 +92,7 @@ body
           margin: 10px 0
           +respond-max-width(sm)
             margin: 5px 0 0 0
+            max-width: 100%
           @media screen and (min-width: 1580px)
             max-width: 65em
         .review
@@ -102,7 +106,8 @@ body
           background: #fdfdfd
           padding: 50px 0
           +respond-max-width(sm)
-            padding: 20px 0 50px 0
+            padding: 20px 0
+            background: #efefef;
           .review
             opacity: 1
           .review-close

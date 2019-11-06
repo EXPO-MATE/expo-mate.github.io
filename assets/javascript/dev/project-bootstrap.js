@@ -89,22 +89,22 @@ $(function(){
         });
 
         // modal image handler
-        $(document).on("click", ".project-title", function(e){
+        $(document).on("click touch", ".project-title", function(e){
             var that = $(this);
             showModal(e, that);
         });
 
-        $(document).on("click", ".project-overview-image", function(e){
+        $(document).on("click touch", ".project-overview-image", function(e){
             var that = $(this);
             showModal(e, that);
         });
 
-        $(document).on("click", ".modal-close", function(e) {
+        $(document).on("click touch", ".modal-close", function(e) {
             var that = $(this);
             closeModal(e, that);
         });
 
-        $(document).on("click", ".modal", function(e) {
+        $(document).on("click touch", ".modal", function(e) {
             if (e.target !== this)
                 return;
             var that = $(this);

@@ -1516,6 +1516,8 @@ body.open {
   width: 100%;
   position: relative;
   overflow: hidden; }
+  .projects-wrapper .project.show-review .read-review {
+    display: none !important; }
   .projects-wrapper .project .project-wrapper,
   .projects-wrapper .project .project-review {
     width: 100%;
@@ -1559,7 +1561,8 @@ body.open {
       margin: 10px 0; }
       @media only screen and (max-width: 991px) {
         .projects-wrapper .project:not(.open) .project-review .review-text {
-          margin: 5px 0 0 0; } }
+          margin: 5px 0 0 0;
+          max-width: 100%; } }
       @media screen and (min-width: 1580px) {
         .projects-wrapper .project:not(.open) .project-review .review-text {
           max-width: 65em; } }
@@ -1574,7 +1577,8 @@ body.open {
       padding: 50px 0; }
       @media only screen and (max-width: 991px) {
         .projects-wrapper .project:not(.open) .project-review.show {
-          padding: 20px 0 50px 0; } }
+          padding: 20px 0;
+          background: #efefef; } }
       .projects-wrapper .project:not(.open) .project-review.show .review {
         opacity: 1; }
       .projects-wrapper .project:not(.open) .project-review.show .review-close {
