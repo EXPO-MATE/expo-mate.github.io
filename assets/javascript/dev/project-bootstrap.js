@@ -65,17 +65,17 @@ $(function(){
                                     '</div>');
 
                     if (starCount > 4) {
-                        $('#project'+count).find('.review-stars > span').append('<i class="icon-star-full"></i>');
+                        $('#project-'+count).find('.review-stars > span').append('<i class="icon-star-full"></i>');
                     }
 
                     if (review === undefined || desc === '' || desc === undefined){
-                        $('#project'+count).find('.read-review').addClass('hidden');
+                        $('#project-'+count).find('.read-review').addClass('hidden');
                     }
 
                     $('.read-review').on('click', function(e){
                         e.preventDefault();
                         var count = $(this).attr('data-count');
-                        $("#project"+count).addClass('show-review').find('.project-review').addClass('show');
+                        $("#project-"+count).addClass('show-review').find('.project-review').addClass('show');
                     });
 
                     $('.review-close').on('click', function(){
