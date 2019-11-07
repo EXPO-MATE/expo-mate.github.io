@@ -193,11 +193,12 @@ function sliderInit(sliderElems){
         $('.slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
+            prevArrow: $(".icon-arrow-left"),
+            nextArrow: $(".icon-arrow-right"),
             autoplay: true,
+            dots: false,
             autoplaySpeed: 3000,
-            arrows: true,
-            variableWidth: true,
-            centerMode: true,
+            adaptiveHeight: true,
             lazyLoad: 'onDemand',
             swip: true
         });

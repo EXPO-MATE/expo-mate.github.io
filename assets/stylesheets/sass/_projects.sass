@@ -211,6 +211,17 @@ body
   background-color: rgb(0,0,0)
   background-color: rgba(0,0,0,0.99)
   display: block
+  .icon-arrow-left,
+  .icon-arrow-right
+    font-size:  2em
+    color: #fff
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    left: 20px
+  .icon-arrow-right
+    left: auto
+    right: 20px
   .modal-close
     position: absolute
     top: 20px
@@ -230,11 +241,6 @@ body
       width: 90%
     .slider
       width: 100%
-      .slick-slide
-        opacity: 0
-        &.slick-active
-          opacity: 1 !important
-          transition: opacity .5s ease
       img
         width: 100%
 

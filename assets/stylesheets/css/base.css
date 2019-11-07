@@ -1699,6 +1699,17 @@ body.open {
   @media only screen and (max-width: 991px) {
     .modal {
       padding-top: 30px; } }
+  .modal .icon-arrow-left,
+  .modal .icon-arrow-right {
+    font-size: 2em;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px; }
+  .modal .icon-arrow-right {
+    left: auto;
+    right: 20px; }
   .modal .modal-close {
     position: absolute;
     top: 20px;
@@ -1719,11 +1730,6 @@ body.open {
         width: 90%; } }
     .modal .modal-content .slider {
       width: 100%; }
-      .modal .modal-content .slider .slick-slide {
-        opacity: 0; }
-        .modal .modal-content .slider .slick-slide.slick-active {
-          opacity: 1;
-          transition: opacity .5s ease; }
       .modal .modal-content .slider img {
         width: 100%; }
 
