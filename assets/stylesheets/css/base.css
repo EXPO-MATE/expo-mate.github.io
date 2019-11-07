@@ -85,6 +85,9 @@
 .icon-quotes-right:before {
   content: "\e978"; }
 
+.icon-instagram:before {
+  content: "\ea92"; }
+
 #about.show .left-container,
 #about.show .right-container, #preabout.show .left-container,
 #preabout.show .right-container, #model.show .left-container,
@@ -995,6 +998,9 @@ section#image-scroll {
       @media only screen and (max-width: 991px) {
         #footer #contact-info .contact-content {
           border: 0; } }
+    #footer #contact-info .contact-details-map a {
+      font-size: 1em;
+      display: inline-block; }
   #footer #footer-bottom-liner {
     color: black;
     font-size: .85em;
