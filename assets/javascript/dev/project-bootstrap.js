@@ -196,6 +196,8 @@ function sliderInit(sliderElems){
             autoplay: true,
             autoplaySpeed: 3000,
             arrows: true,
+            variableWidth: true,
+            centerMode: true,
             lazyLoad: 'onDemand',
             swip: true
         });

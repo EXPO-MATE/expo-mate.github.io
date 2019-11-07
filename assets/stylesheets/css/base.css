@@ -1719,6 +1719,11 @@ body.open {
         width: 90%; } }
     .modal .modal-content .slider {
       width: 100%; }
+      .modal .modal-content .slider .slick-slide {
+        opacity: 0; }
+        .modal .modal-content .slider .slick-slide.slick-active {
+          opacity: 1;
+          transition: opacity .5s ease; }
       .modal .modal-content .slider img {
         width: 100%; }
 

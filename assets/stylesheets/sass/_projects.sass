@@ -230,6 +230,11 @@ body
       width: 90%
     .slider
       width: 100%
+      .slick-slide
+        opacity: 0
+        &.slick-active
+          opacity: 1
+          transition: opacity .5s ease
       img
         width: 100%
 
