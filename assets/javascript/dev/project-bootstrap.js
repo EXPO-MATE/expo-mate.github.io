@@ -9,25 +9,23 @@ $(function(){
             success: function (data) {
                 var actual = JSON.parse(decodeURIComponent(escape(window.atob(data))))
                 , loc = getCookie('lang')
-                , homeproject = actual[loc].pages.homepage.content.projects
+                , locale = actual[loc] || []
+                , homeproject = locale.pages.homepage.content.projects
                 , reviewLink = homeproject.reviewLink || ''
-                , projectDetail = actual[loc].pages.projects
+                , projectDetail = locale.pages.projects
                 , section = $('#projects .projects-wrapper');
 
-                if (loc === undefined) {
-                    chooseCookie();
-                }
-
                 $.each(projectDetail, function (index, item) {
-                    var imageContent = item.images
-                        , overviewImg = imageContent[0].src || ''
-                        , count = parseInt(index)
+                    var count = parseInt(index)
                         , review = item.review
                         , author = review.author || ''
                         , desc = review.description || ''
                         , reviewDate = review.date || ''
                         , identifier = author.replace(/[^A-Z0-9]+/ig, "-").toLowerCase()
                         , starCount = review.stars || '';
+
+
+                    var overviewImg = actual['nl'].pages.projects[index].images[0].src || '';
 
                     section.append('<div class="project" id="project-'+count+'">\n' +
                                     '	<div class="project-wrapper">\n' +
@@ -127,7 +125,7 @@ function showModal(e, that){
                 type: "GET",
                 success: function (data) {
                     var actual = JSON.parse(decodeURIComponent(escape(window.atob(data))))
-                    , loc = getCookie('lang')
+                    , loc = 'nl'
                     , projectDetail = actual[loc].pages.projects
                     , sliderElems = []
                     , imageContent = projectDetail[projectID].images;
