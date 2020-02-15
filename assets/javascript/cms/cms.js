@@ -76,9 +76,9 @@ $(function(){
                         ajax: true,
                         disable_edit_json: true,
                         schema: decodedSchemaJson,
-                        theme: 'bootstrap3',
+                        theme: 'bootstrap4',
                         startval: parsedDecodedJson,
-                        iconlib: "bootstrap3"
+                        iconlib: "bootstrap4"
                     });
 
                     resultsContainer.append('<button class="submit-btn btn btn-primary">'+submitButtonText+'</button>');
