@@ -66,8 +66,10 @@ $(function(){
                     $('#login').hide();
                     alert.addClass('hidden').removeClass('alert');
 
-                    if (JSONEditor.plugins.sceditor) {
-                        JSONEditor.plugins.sceditor.enable = true;
+                    var plugins = JSONEditor.plugins || {};
+                    var sceditor = plugins.sceditor || {};
+                    if (plugins && sceditor) {
+                        sceditor.enable = true;
                     }
 
                     var editor = new JSONEditor(document.getElementById('results'),{
