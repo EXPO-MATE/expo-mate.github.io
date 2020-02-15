@@ -29,11 +29,11 @@ $(function(){
                     success: function (data) {
                         dataStore.data = data;
 						console.log('Got some data!', data);
-                    }, 
+                    },
                     error: function (err) {
                         alert.addClass('error').removeClass('hidden').html('Something went wrong:', err);
 						console.log('can not connect to Github for data', err);
-                    } 
+                    }
                 }),
                 $.ajax({
                     url: "https://api.github.com/repos/" + owner + "/" + repo + "/contents/" + schema,
@@ -44,7 +44,7 @@ $(function(){
                     success: function (schema) {
                         dataStore.schema = schema;
 						console.log('Got some schemas!', schema);
-                    }, 
+                    },
                     error: function (err) {
                         alert.addClass('error').removeClass('hidden').html('Something went wrong:', err);
 						console.log('can not connect to Github for schema', err);
@@ -66,7 +66,10 @@ $(function(){
                     $('#login').hide();
                     alert.addClass('hidden').removeClass('alert');
 
-                    JSONEditor.plugins.sceditor.enable = true;
+                    if (JSONEditor.plugins.sceditor) {
+                        JSONEditor.plugins.sceditor.enable = true;
+                    }
+
                     var editor = new JSONEditor(document.getElementById('results'),{
                         ajax: true,
                         disable_edit_json: true,
