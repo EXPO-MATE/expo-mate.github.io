@@ -1463,6 +1463,9 @@ body:not(.loading) .content-wrapper {
     .icon-arrow-right {
       right: -5px; } }
 
+body.projects #header .enterprise-intro-header-text p {
+  max-width: 1024px; }
+
 body:not(.open) .modal {
   opacity: 0;
   height: 0;
