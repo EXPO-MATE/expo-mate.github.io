@@ -9,6 +9,10 @@
         "collapsed": true
       },
       "properties": {
+        "id": {
+          "type": "string",
+          "default": "Naam van het project zonder hoofdletters, spaties of speciale tekens"
+        },
         "header": {
           "type": "string"
         },
