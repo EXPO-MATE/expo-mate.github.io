@@ -530,6 +530,35 @@
 					}
 				},
 				{
+					"id": "westfalia",
+					"header": "Westfalia",
+					"subTitle": "Fruit Logistica Berlijn, PMA Anaheim, Fruit Attraction Madrid",
+					"description": "Westfalia wilde een nieuw standconcept waarbij de standruimte optimaler benut zou worden en daarnaast een kwalitatieve upgrade zou zijn. Vanwege de vele besprekingen wilde men bij voorkeur 6 spreekruimtes hebben maar daarnaast een open en toegankelijk hospitality deel op de stand waar men in een informele sfeer hun klanten kan spreken. Het totale oppervlak bestaat uit 2 delen met een gangpad ertussen. Daardoor hebben we het concept dusdanig opgezet zodat het als een echte eenheid uitziet. Het gehele concept is van hoge kwaliteit en heeft de uitstraling welke een weerspiegeling is van de leidende marktpositie van Westfalia. ",
+					"images": [{
+							"src": "assets/images/projects/westfalia/1.jpg",
+							"alt": "westfalia"
+						},
+						{
+							"src": "assets/images/projects/westfalia/2.jpg",
+							"alt": "westfalia"
+						},
+						{
+							"src": "assets/images/projects/westfalia/3.jpg",
+							"alt": "westfalia"
+						},
+						{
+							"src": "assets/images/projects/westfalia/4.jpg",
+							"alt": "westfalia"
+						}
+					],
+					"review": {
+						"author": "WESTFALIA",
+						"date": "Maart, 2019",
+						"stars": 5,
+						"description": "Het team van Expo-Mate heeft een perfecte stand voor ons ontworpen en gerealiseerd op de Fruit Logistica in Berlijn. Er viel werkelijk niets op aan te merken net zoals de professionaliteit van hun werkwijze. Het was een plezier om met het team samen te werken en ik weet zeker dat er in de toekomst meer mogelijkheden zullen zijn om dit te doen. Bedankt!"
+					}
+				},
+				{
 					"id": "avz",
 					"header": "Aluminium Verkoop Zuid BV (AVZ)",
 					"subTitle": "R+T Stuttgart, Polyclose Gent",
@@ -758,35 +787,7 @@
 						"description": ""
 					}
 				},
-				{
-					"id": "westfalia",
-					"header": "Westfalia",
-					"subTitle": "Fruit Logistica Berlijn, PMA Anaheim, Fruit Attraction Madrid",
-					"description": "Westfalia wilde een nieuw standconcept waarbij de standruimte optimaler benut zou worden en daarnaast een kwalitatieve upgrade zou zijn. Vanwege de vele besprekingen wilde men bij voorkeur 6 spreekruimtes hebben maar daarnaast een open en toegankelijk hospitality deel op de stand waar men in een informele sfeer hun klanten kan spreken. Het totale oppervlak bestaat uit 2 delen met een gangpad ertussen. Daardoor hebben we het concept dusdanig opgezet zodat het als een echte eenheid uitziet. Het gehele concept is van hoge kwaliteit en heeft de uitstraling welke een weerspiegeling is van de leidende marktpositie van Westfalia. ",
-					"images": [{
-							"src": "assets/images/projects/westfalia/1.jpg",
-							"alt": "westfalia"
-						},
-						{
-							"src": "assets/images/projects/westfalia/2.jpg",
-							"alt": "westfalia"
-						},
-						{
-							"src": "assets/images/projects/westfalia/3.jpg",
-							"alt": "westfalia"
-						},
-						{
-							"src": "assets/images/projects/westfalia/4.jpg",
-							"alt": "westfalia"
-						}
-					],
-					"review": {
-						"author": "WESTFALIA",
-						"date": "Maart, 2019",
-						"stars": 5,
-						"description": "Het team van Expo-Mate heeft een perfecte stand voor ons ontworpen en gerealiseerd op de Fruit Logistica in Berlijn. Er viel werkelijk niets op aan te merken net zoals de professionaliteit van hun werkwijze. Het was een plezier om met het team samen te werken en ik weet zeker dat er in de toekomst meer mogelijkheden zullen zijn om dit te doen. Bedankt!"
-					}
-				},
+				
 				{
 					"id": "hoogstraten",
 					"header": "Hoogstraten",
@@ -1503,6 +1504,35 @@
 					}
 				},
 				{
+					"id": "westfalia",
+					"header": "Westfalia",
+					"subTitle": "Fruit Logistica Berlin, PMA Anaheim, Fruit Attraction Madrid",
+					"description": "Westfalia forderte EXPO-MATE auf, ein neues Standkonzept zu entwickeln, bei dem die Standfläche optimiert und ein qualitatives Upgrade zu sehen ist. Aufgrund der vielen Treffen mit Kunden bevorzugten sie 6 Besprechungsräume sowie eine offene und einladende Abteilung am Stand. Dort konnten sie mit Kunden in einer informellen Atmosphäre sprechen. Die Standfläche besteht aus 2 Teilen und einem Gang dazwischen. Wir haben daher dieses Standkonzept gewählt um beide Flächen miteinander zu verbinden, um somit eine Einheit zu schaffen.  Die gesamte Standausführung ist von höchster Qualität und zeigt die führende Marktposition von Westfalia.",
+					"images": [{
+							"src": "assets/images/projects/westfalia/1.jpg",
+							"alt": ""
+						},
+						{
+							"src": "assets/images/projects/westfalia/2.jpg",
+							"alt": ""
+						},
+						{
+							"src": "assets/images/projects/westfalia/3.jpg",
+							"alt": ""
+						},
+						{
+							"src": "assets/images/projects/westfalia/4.jpg",
+							"alt": ""
+						}
+					],
+					"review": {
+						"author": "WESTFALIA",
+						"date": "March, 2019",
+						"stars": 5,
+						"description": "Simply can't fault the Expo-Mate team on the quality of stand they produced for us at Fruit Logistica Berlin and the professionalism of their services. It was a pleasure working with the team and I'm sure there will be more opportunities to do so in future. Thanks!"
+					}
+				},
+				{
 					"id": "avz",
 					"header": "Aluminium Verkoop Zuid BV (AVZ)",
 					"subTitle": "R+T Stuttgart, Polyclose Gent",
@@ -1711,35 +1741,7 @@
 						"description": ""
 					}
 				},
-				{
-					"id": "westfalia",
-					"header": "Westfalia",
-					"subTitle": "Fruit Logistica Berlin, PMA Anaheim, Fruit Attraction Madrid",
-					"description": "Westfalia forderte EXPO-MATE auf, ein neues Standkonzept zu entwickeln, bei dem die Standfläche optimiert und ein qualitatives Upgrade zu sehen ist. Aufgrund der vielen Treffen mit Kunden bevorzugten sie 6 Besprechungsräume sowie eine offene und einladende Abteilung am Stand. Dort konnten sie mit Kunden in einer informellen Atmosphäre sprechen. Die Standfläche besteht aus 2 Teilen und einem Gang dazwischen. Wir haben daher dieses Standkonzept gewählt um beide Flächen miteinander zu verbinden, um somit eine Einheit zu schaffen.  Die gesamte Standausführung ist von höchster Qualität und zeigt die führende Marktposition von Westfalia.",
-					"images": [{
-							"src": "assets/images/projects/westfalia/1.jpg",
-							"alt": ""
-						},
-						{
-							"src": "assets/images/projects/westfalia/2.jpg",
-							"alt": ""
-						},
-						{
-							"src": "assets/images/projects/westfalia/3.jpg",
-							"alt": ""
-						},
-						{
-							"src": "assets/images/projects/westfalia/4.jpg",
-							"alt": ""
-						}
-					],
-					"review": {
-						"author": "WESTFALIA",
-						"date": "March, 2019",
-						"stars": 5,
-						"description": "Simply can't fault the Expo-Mate team on the quality of stand they produced for us at Fruit Logistica Berlin and the professionalism of their services. It was a pleasure working with the team and I'm sure there will be more opportunities to do so in future. Thanks!"
-					}
-				},
+				
 				{
 					"id": "hoogstraten",
 					"header": "Hoogstraten",
@@ -2440,6 +2442,35 @@
 						"description": "Very much enjoyed working with the Expo-Mate team for a show in Dusseldorf earlier this year. Expo-Mate provided us with efficient, effective and creative services - from design to execution - against the best 'value for money'. Above all, the team was hands on, flexible and fun to work with.\nAs a matter of ‘principle’, I don’t give a perfect ‘five star’ score, as there should always be a continuous strive for improvement. However Expo-Mate comes close to perfection and would pass the five-star test with flying colors (-;\nThey come highly recommended."
 					}
 				},
+								{
+					"id": "westfalia",
+					"header": "Westfalia",
+					"subTitle": "Fruit Logistica Berlin, PMA Anaheim, Fruit Attraction Madrid",
+					"description": "Westfalia requested EXPO-MATE to develop a new stand concept with a more optimal use of the stand space and an upgrade in terms of quality. Because of the many meetings with clients, they preferred to have 6 meeting rooms plus an open and welcoming hospitality section on the stand where they can speak to their customers in a more informal atmosphere. The stand surface consists of 2 parts with an aisle in between. That is why we have set up the concept so that it looks like a real entity. The entire concept is of high quality and has the appearance that reflects the leading market position of Westfalia.",
+					"images": [{
+							"src": "/assets/images/projects/westfalia/1.jpg",
+							"alt": ""
+						},
+						{
+							"src": "/assets/images/projects/westfalia/2.jpg",
+							"alt": ""
+						},
+						{
+							"src": "/assets/images/projects/westfalia/3.jpg",
+							"alt": ""
+						},
+						{
+							"src": "/assets/images/projects/westfalia/4.jpg",
+							"alt": ""
+						}
+					],
+					"review": {
+						"author": "WESTFALIA",
+						"date": "March, 2019",
+						"stars": 5,
+						"description": "Simply can't fault the Expo-Mate team on the quality of stand they produced for us at Fruit Logistica Berlin and the professionalism of their services. It was a pleasure working with the team and I'm sure there will be more opportunities to do so in future. Thanks!"
+					}
+				},
 				{
 					"id": "avz",
 					"header": "Aluminium Verkoop Zuid BV (AVZ)",
@@ -2649,35 +2680,7 @@
 						"description": ""
 					}
 				},
-				{
-					"id": "westfalia",
-					"header": "Westfalia",
-					"subTitle": "Fruit Logistica Berlin, PMA Anaheim, Fruit Attraction Madrid",
-					"description": "Westfalia requested EXPO-MATE to develop a new stand concept with a more optimal use of the stand space and an upgrade in terms of quality. Because of the many meetings with clients, they preferred to have 6 meeting rooms plus an open and welcoming hospitality section on the stand where they can speak to their customers in a more informal atmosphere. The stand surface consists of 2 parts with an aisle in between. That is why we have set up the concept so that it looks like a real entity. The entire concept is of high quality and has the appearance that reflects the leading market position of Westfalia.",
-					"images": [{
-							"src": "/assets/images/projects/westfalia/1.jpg",
-							"alt": ""
-						},
-						{
-							"src": "/assets/images/projects/westfalia/2.jpg",
-							"alt": ""
-						},
-						{
-							"src": "/assets/images/projects/westfalia/3.jpg",
-							"alt": ""
-						},
-						{
-							"src": "/assets/images/projects/westfalia/4.jpg",
-							"alt": ""
-						}
-					],
-					"review": {
-						"author": "WESTFALIA",
-						"date": "March, 2019",
-						"stars": 5,
-						"description": "Simply can't fault the Expo-Mate team on the quality of stand they produced for us at Fruit Logistica Berlin and the professionalism of their services. It was a pleasure working with the team and I'm sure there will be more opportunities to do so in future. Thanks!"
-					}
-				},
+
 				{
 					"id": "hoogstraten",
 					"header": "Hoogstraten",
