@@ -322,13 +322,21 @@
 				},
 				{
 					"id": "verano",
-					"header": "Verano ",
+					"header": "Verano",
 					"subTitle": "Polyclose Gent",
 					"description": "Warmte en gezelligheid waar de producten op een subtiele manier geïntegreerd kunnen worden in de stand was de opdracht vanuit Verano. Dealers welkom heten in een fijne, warme omgeving en verwennen met een goede koffie of een alcoholische versnapering. De kwalitatieve producten van Verano zijn binnen deze stand mooi geïntegreerd en maken daadwerkelijk onderdeel uit van de stand. Een ware parel op de Polyclose in Gent.",
 					"images": [{
-							"src": "/assets/images/projects/verano/1.jpg",
-							"alt": ""
-						}
+						"src": "/assets/images/projects/verano/1.jpg",
+						"alt": "Verano"
+					},
+					{
+						"src": "/assets/images/projects/verano/2.jpg",
+						"alt": "Verano"
+					},
+					{
+						"src": "/assets/images/projects/verano/3.jpg",
+						"alt": "Verano"
+					}
 					],
 					"review": {
 						"author": "",
@@ -2297,12 +2305,20 @@
 				},
 				{
 					"id": "verano",
-					"header": "Verano ",
+					"header": "Verano",
 					"subTitle": "Polyclose Ghent",
 					"description": "Warmth and cosiness in which the products are subtly integrated into the stand was the assignment from Verano. Welcoming dealers in a nice, warm environment and spoil them with a good coffee or a alcoholic snack. The high quality products of Verano are nicely integrated within this stand and are actually part of the stand. A true pearl on the Polyclose in Ghent.",
 					"images": [{
 							"src": "/assets/images/projects/verano/1.jpg",
-							"alt": ""
+							"alt": "Verano"
+						},
+						{
+							"src": "/assets/images/projects/verano/2.jpg",
+							"alt": "Verano"
+						},
+						{
+							"src": "/assets/images/projects/verano/3.jpg",
+							"alt": "Verano"
 						}
 					],
 					"review": {
