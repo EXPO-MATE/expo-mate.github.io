@@ -423,6 +423,113 @@
 					}
 				},
 				{
+					"id": "tiama",
+					"header": "Tiama",
+					"subTitle": "Glasstec Düsseldorf",
+					"description": "Centraal in de oplossingen die Tiama haar klanten biedt staat data. De vraag die we kregen was of we een concept konden ontwerpen dat dit uitstraalde. Met drie grote led wanden aan de zijkanten en een grote pilaar in het midden van de stand waar de data omlaag viel, was dit een uniek concept. Behalve een innovatief, futuristisch ontwerp wilde TIAMA hun gasten verwennen met goed eten en een fijne plek om samen te komen. Achter in de stand is er daarom een prettige hospitality ruimte gecreëerd. Daarnaast stonden er ook machines en producten van TIAMA op de stand. Al met al een heel mooi en innovatief design met een goede balans tussen een mooi ontwerp en functionaliteiten.",
+					"images": [{
+							"src": "/assets/images/projects/tiama/1.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/2.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/3.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/4.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/5.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/6.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/7.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/8.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/9.jpg",
+							"alt": "tiama"
+						}
+					],
+					"review": {
+						"author": "",
+						"date": "",
+						"stars": 0,
+						"description": ""
+					}
+				},
+				{
+					"id": "speira",
+					"header": "Speira",
+					"subTitle": "Aluminium, Düsseldorf",
+					"description": "Speira heeft als slogan 'redefine the limit of aluminum solutions' We vonden dat de stand uit moest stralen en hebben een uniek concept ontwikkeld met een aantal elementen die oneindig leken. Tevens zijn er veel grondstoffen in de stand verwerkt als eye catcher en sfeer element. Behalve dat dit erg mooi is, verteld het ook een verhaal. Speira produceert hun producten voornamelijk uit gerecycled aluminium en wilde dit duidelijk terug laten komen in het stand ontwerpt. In combinatie met hun mooie corporate identity was dit een van de eye catchers van de Aluminium!  'Redefing the limits' met deze stand in elk aspect van de stand.",					
+					"images": [{
+							"src": "/assets/images/projects/speira/1.jpg",
+							"alt": "speira"
+						},
+						{
+							"src": "/assets/images/projects/speira/2.jpg",
+							"alt": "speira"
+						},
+						{
+							"src": "/assets/images/projects/speira/3.jpg",
+							"alt": "speira"
+						},
+						{
+							"src": "/assets/images/projects/speira/4.jpg",
+							"alt": "speira"
+						}
+					],
+					"review": {
+						"author": "",
+						"date": "",
+						"stars": 0,
+						"description": ""
+					}
+				},
+				{
+					"id": "real-alloy",
+					"header": "Real Alloy",
+					"subTitle": "Aluminium, Düsseldorf",
+					"description": "Real Alloy gaf ons de opdracht een stand te creëren die perfect zou passen in hun mooie huisstijl, maar ook hun belangrijkste bezoekers een gezellig en warm gevoel zou geven. De stand moet ook voldoende ruimte hebben voor de cateraar om heerlijk warm eten te maken en lekkere drankjes te serveren. Al met al een warm gevoel voor bezoekers om zich welkom te voelen!",
+					"images": [{
+							"src": "/assets/images/projects/real-alloy/1.jpg",
+							"alt": "real-alloy/"
+						},
+						{
+							"src": "/assets/images/projects/real-alloy/2.jpg",
+							"alt": "real-alloy/"
+						},
+						{
+							"src": "/assets/images/projects/real-alloy/3.jpg",
+							"alt": "real-alloy/"
+						},
+						{
+							"src": "/assets/images/projects/real-alloy/4.jpg",
+							"alt": "real-alloy/"
+						}
+					],
+					"review": {
+						"author": "Real-Alloy",
+						"date": "September 2022",
+						"stars": 5,
+						"description": "Vanaf het eerste contact tot de opvolging na een succesvolle beurs voelden we ons in uitstekende handen bij Expo-Mate: Creatieven die onze wensen begrijpen en visualiseren. Practitioners die implementeren in lijn met de klant en doelgroep - zonder overselling. Allrounders die aan alles denken, die ons onbezorgd de beurs laten benaderen en die ook op het laatste moment met professionele oplossingen komen. En gewoon een ontzettend vriendelijk team!"
+					}
+				},
+				{
 					"id": "alrec",
 					"header": "Alrec",
 					"subTitle": "Euroshop Düsseldorf",
@@ -2403,6 +2510,113 @@
 						"date": "May, 2018",
 						"stars": 5,
 						"description": "<p>We are totally satisfied working with EXPO-MATE in Düsseldorf Tube 2018. Their timing plan was fine, communication is always perfect, all the materials delivered as discussed. During the exhibition if we wanted to change something, Jan and his team arranged it immediately. We received very positive feedbacks from our customer who visited us on Tube 2018. Overall I can say EXPO-MATE is a very good company and if you have some vision or would like to get an idea from them, they will manage.</p>"
+					}
+				},
+				{
+					"id": "tiama",
+					"header": "Tiama",
+					"subTitle": "Glasstec Düsseldorf",
+					"description":"Data is key in the solutions Tiama offers to their clients. This was the main goal of the concept they requested for. With 3 led walls at the side and an impressive middle part where the data came fallen down from the ceiling this was a truly unique concept! But there was more because a French company that TIAMA is wants to spoil their guest with the delicious French food. In order to achieve this, we created a nice hospitality area. On top of this there were machines and products displays. All in all a great concept with the right balance between innovation, design and functionalities.",
+					"images": [{
+						"src": "/assets/images/projects/tiama/1.jpg",
+						"alt": "tiama"
+					},
+					{
+						"src": "/assets/images/projects/tiama/2.jpg",
+						"alt": "tiama"
+					},
+					{
+						"src": "/assets/images/projects/tiama/3.jpg",
+						"alt": "tiama"
+					},
+					{
+						"src": "/assets/images/projects/tiama/4.jpg",
+						"alt": "tiama"
+					},
+					{
+						"src": "/assets/images/projects/tiama/5.jpg",
+						"alt": "tiama"
+					},
+					{
+						"src": "/assets/images/projects/tiama/6.jpg",
+						"alt": "tiama"
+					},
+					{
+						"src": "/assets/images/projects/tiama/7.jpg",
+						"alt": "tiama"
+					},
+					{
+						"src": "/assets/images/projects/tiama/8.jpg",
+						"alt": "tiama"
+					},
+					{
+						"src": "/assets/images/projects/tiama/9.jpg",
+						"alt": "tiama"
+					}
+					],
+					"review": {
+						"author": "",
+						"date": "",
+						"stars": 0,
+						"description": ""
+					}
+				},
+				{
+					"id": "speira",
+					"header": "Speira",
+					"subTitle": "Aluminium, Düsseldorf",
+					"description": "Speira's slogan is 'redefine the limit of aluminum solutions'. We thought the stand concept should reflect this and developed a unique concept with a number of elements that seemed endless, just as the solutions Speira offerte to their clients. Many raw materials have also been incorporated into the stand as an eye catcher and atmosphere element. Besides being very beautiful, this told a story. Speira mainly produces their products from recycled aluminum and wanted this to be clearly reflected in the stand design. In combination with their beautiful corporate identity, this was one of the eye catchers of the Aluminium! Redefing the limits with this booth in every aspect of the booth.",
+					"images": [{
+							"src": "/assets/images/projects/speira/1.jpg",
+							"alt": "speira"
+						},
+						{
+							"src": "/assets/images/projects/speira/2.jpg",
+							"alt": "speira"
+						},
+						{
+							"src": "/assets/images/projects/speira/3.jpg",
+							"alt": "speira"
+						},
+						{
+							"src": "/assets/images/projects/speira/4.jpg",
+							"alt": "speira"
+						}
+					],
+					"review": {
+						"author": "",
+						"date": "",
+						"stars": 0,
+						"description": ""
+					}
+				},
+				{
+					"id": "real-alloy",
+					"header": "Real Alloy",
+					"subTitle": "Aluminium, Düsseldorf",
+					"description": "Real Alloy gave us the assignment to create a stand that would perfectly fit into their great corporate identity, but would also give their key visitors a cozy and warm feeling. The stand would also need to have enough space for the caterer to make great warm food and serve nice drinks. All in all a warm feeling for visitors to feel welcome!",
+					"images": [{
+							"src": "/assets/images/projects/real-alloy/1.jpg",
+							"alt": "real-alloy"
+						},
+						{
+							"src": "/assets/images/projects/real-alloy/2.jpg",
+							"alt": "real-alloy"
+						},
+						{
+							"src": "/assets/images/projects/real-alloy/3.jpg",
+							"alt": "real-alloy"
+						},
+						{
+							"src": "/assets/images/projects/real-alloy/4.jpg",
+							"alt": "real-alloy"
+						}
+					],
+					"review": {
+						"author": "Real-Alloy",
+						"date": "September 2022",
+						"stars": 5,
+						"description": "From the first contact to the follow-up after a successful trade fair, we felt we were in excellent hands with Expo-Mate: Creatives who understand and visualise our wishes. Practitioners who implement in line with the customer and target group - without overselling. All-rounders who think of everything, who let us unworriedly approach the trade fair and who come up with professional solutions even at the very last minute. And simply an incredibly friendly team!"
 					}
 				},
 				{
