@@ -19,92 +19,95 @@ $(function(){
                 var dutchDefault = actual['nl'].pages.projects;
 
                 $.each(projectDetail, function (index, item) {
-                    var count = parseInt(index)
-                        , review = item.review
-                        , author = review.author || ''
-                        , desc = review.description || ''
-                        , reviewDate = review.date || ''
-                        , identifier = author.replace(/[^A-Z0-9]+/ig, "-").toLowerCase()
-                        , starCount = review.stars || ''
-                        , projectID = item.id || 'project-'+index;
 
-                        //Get overview image from dutch loc.
-                        var overviewImg = '';
+                    if (item) {
+                        var count = parseInt(index)
+                            , review = item.review
+                            , author = review.author || ''
+                            , desc = review.description || ''
+                            , reviewDate = review.date || ''
+                            , identifier = author.replace(/[^A-Z0-9]+/ig, "-").toLowerCase()
+                            , starCount = review.stars || ''
+                            , projectID = item.id || 'project-'+index;
 
-                        //Search for fallback image
-                        if (item && item.images && item.images.length > 0) {
-                            overviewImg = item.images[0].src;
+                            //Get overview image from dutch loc.
+                            var overviewImg = '';
+
+                            //Search for fallback image
+                            if (item.images && item.images.length > 0) {
+                                overviewImg = item.images[0].src;
+                            }
+                            //look in root for base image
+                            $.each(dutchDefault, function (index, root) {
+                                    if(root.id === projectID) {
+                                        overviewImg = root.images[0].src;
+                                    }
+                            });
+
+
+                        section.append('<div class="project" id='+projectID+'>\n' +
+                                        '	<div class="project-wrapper">\n' +
+                                        '		<div class="project-image">\n' +
+                                        '       <div data-project="'+projectID+'" class="project-overview-image" style="background-image: url('+ overviewImg +')"></div>\n' +
+                                        '		</div>\n' +
+                                        '		<div class="project-desc-wrapper">\n' +
+                                        '			<div class="project-desc-content">\n' +
+                                        '				<div class="project-header">\n' +
+                                        '					<h2 class="project-title" data-project="'+projectID+'">'+item.header+'</h2>\n' +
+                                        '					<div class="project-sub-title">'+item.subTitle+'</div>\n' +
+                                        '				</div>\n' +
+                                        '				<div class="project-desc"> \n' +
+                                        '				   <span>'+item.description+'</span> \n' +
+                                        '				   <a class="read-review" data-revID="'+projectID+'">'+reviewLink+' '+item.header+'</a> \n' +
+                                        '			   </div>\n' +
+                                        '			</div>\n' +
+                                        '		</div> \n' +
+                                        '	</div>\n' +
+                                        '	<div class="project-review">\n' +
+                                        '		<div class="review-close"></div> \n' +
+                                        '		<div class="review" id="'+identifier+'">\n' +
+                                        '			<div class="review-author">'+author+'</div>\n' +
+                                        '			<div class="review-date">'+reviewDate+'</div>\n' +
+                                        '           <div class="review-stars">\n' +
+                                        '               <i class="icon-star-full"></i>\n' +
+                                        '               <i class="icon-star-full"></i>\n' +
+                                        '               <i class="icon-star-full"></i>\n' +
+                                        '               <i class="icon-star-full"></i>\n' +
+                                        '               <span></span>\n' +
+                                        '           </div>\n' +
+                                        '			<div class="review-text">'+desc+'</div>\n' +
+                                        '		</div>\n' +
+                                        '	</div>\n' +
+                                        '</div>');
+
+                        //Make sure 5 starts are show for 5 star reviews
+                        if (starCount > 4) {
+                            $('#'+projectID).find('.review-stars > span').append('<i class="icon-star-full"></i>');
                         }
-                        //look in root for base image
-                        $.each(dutchDefault, function (index, root) {
-                            	if(root.id === projectID) {
-                                    overviewImg = root.images[0].src;
-                                }
+
+                        //Hide blank reviews
+                        if (review === undefined || desc === '' || desc === undefined){
+                            $('#'+projectID).find('.read-review').addClass('hidden');
+                        }
+
+                        //Open Review
+                        $('.read-review').on('click', function(e){
+                            e.preventDefault();
+                            var project = $(this).attr('data-revID');
+                            $("#"+project).addClass('show-review').find('.project-review').addClass('show');
                         });
 
+                        //Close Review
+                        $('.review-close').on('click', function(){
+                            $(this).parent().removeClass('show').parent('.project').removeClass('show-review');
+                        });
 
-                    section.append('<div class="project" id='+projectID+'>\n' +
-                                    '	<div class="project-wrapper">\n' +
-                                    '		<div class="project-image">\n' +
-                                    '       <div data-project="'+projectID+'" class="project-overview-image" style="background-image: url('+ overviewImg +')"></div>\n' +
-                                    '		</div>\n' +
-                                    '		<div class="project-desc-wrapper">\n' +
-                                    '			<div class="project-desc-content">\n' +
-                                    '				<div class="project-header">\n' +
-                                    '					<h2 class="project-title" data-project="'+projectID+'">'+item.header+'</h2>\n' +
-                                    '					<div class="project-sub-title">'+item.subTitle+'</div>\n' +
-                                    '				</div>\n' +
-                                    '				<div class="project-desc"> \n' +
-                                    '				   <span>'+item.description+'</span> \n' +
-                                    '				   <a class="read-review" data-revID="'+projectID+'">'+reviewLink+' '+item.header+'</a> \n' +
-                                    '			   </div>\n' +
-                                    '			</div>\n' +
-                                    '		</div> \n' +
-                                    '	</div>\n' +
-                                    '	<div class="project-review">\n' +
-                                    '		<div class="review-close"></div> \n' +
-                                    '		<div class="review" id="'+identifier+'">\n' +
-                                    '			<div class="review-author">'+author+'</div>\n' +
-                                    '			<div class="review-date">'+reviewDate+'</div>\n' +
-                                    '           <div class="review-stars">\n' +
-                                    '               <i class="icon-star-full"></i>\n' +
-                                    '               <i class="icon-star-full"></i>\n' +
-                                    '               <i class="icon-star-full"></i>\n' +
-                                    '               <i class="icon-star-full"></i>\n' +
-                                    '               <span></span>\n' +
-                                    '           </div>\n' +
-                                    '			<div class="review-text">'+desc+'</div>\n' +
-                                    '		</div>\n' +
-                                    '	</div>\n' +
-                                    '</div>');
-
-                    //Make sure 5 starts are show for 5 star reviews
-                    if (starCount > 4) {
-                        $('#'+projectID).find('.review-stars > span').append('<i class="icon-star-full"></i>');
-                    }
-
-                    //Hide blank reviews
-                    if (review === undefined || desc === '' || desc === undefined){
-                        $('#'+projectID).find('.read-review').addClass('hidden');
-                    }
-
-                    //Open Review
-                    $('.read-review').on('click', function(e){
-                        e.preventDefault();
-                        var project = $(this).attr('data-revID');
-                        $("#"+project).addClass('show-review').find('.project-review').addClass('show');
-                    });
-
-                    //Close Review
-                    $('.review-close').on('click', function(){
-                        $(this).parent().removeClass('show').parent('.project').removeClass('show-review');
-                    });
-
-                     //Open specific project based on hash
-                    if(hash && hash !== undefined){
-                        hash = window.location.hash.substring(1);
-                        if (projectID === hash) {
-                            showModal(null, null, projectID);
+                        //Open specific project based on hash
+                        if(hash && hash !== undefined){
+                            hash = window.location.hash.substring(1);
+                            if (projectID === hash) {
+                                showModal(null, null, projectID);
+                            }
                         }
                     }
                 });
