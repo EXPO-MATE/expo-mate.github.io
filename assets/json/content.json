@@ -326,23 +326,52 @@
 					"subTitle": "Polyclose Gent",
 					"description": "Warmte en gezelligheid waar de producten op een subtiele manier geïntegreerd kunnen worden in de stand was de opdracht vanuit Verano. Dealers welkom heten in een fijne, warme omgeving en verwennen met een goede koffie of een alcoholische versnapering. De kwalitatieve producten van Verano zijn binnen deze stand mooi geïntegreerd en maken daadwerkelijk onderdeel uit van de stand. Een ware parel op de Polyclose in Gent.",
 					"images": [{
-						"src": "/assets/images/projects/verano/1.jpg",
-						"alt": "Verano"
-					},
-					{
-						"src": "/assets/images/projects/verano/2.jpg",
-						"alt": "Verano"
-					},
-					{
-						"src": "/assets/images/projects/verano/3.jpg",
-						"alt": "Verano"
-					}
+							"src": "/assets/images/projects/verano/1.jpg",
+							"alt": "Verano"
+						},
+						{
+							"src": "/assets/images/projects/verano/2.jpg",
+							"alt": "Verano"
+						},
+						{
+							"src": "/assets/images/projects/verano/3.jpg",
+							"alt": "Verano"
+						}
 					],
 					"review": {
 						"author": "Verano",
 						"date": "September 2022",
 						"stars": 5,
 						"description": "Onze samenwerking met Expo-Mate is ontzettend goed en prettig verlopen. De stand zag er geweldig uit en wij hebben veel complimenten mogen ontvangen. Hartstikke bedankt Niek, Jan en Ron!"
+					}
+				},
+				{
+					"id": "tomrak2022",
+					"header": "Tomra Sorting",
+					"subTitle": "K2022 Düsseldorf",
+					"description": "Voor onze vaste klant mochten we een stand concept maken waarbij we rekening moesten houden dat alle materialen hergebruikt zouden worden of dat ze op een duurzame manier opgeruimd zouden worden. Het sfeervolle eindresultaat zorgde voor vele positieve reacties waar wij als ook de klant heel blij mee was. ",
+					"images": [{
+							"src": "/assets/images/projects/tomrak2022/1.jpg",
+							"alt": "Tomra"
+						},
+						{
+							"src": "/assets/images/projects/tomrak2022/2.jpg",
+							"alt": "tomra"
+						},
+						{
+							"src": "/assets/images/projects/tomrak2022/3.jpg",
+							"alt": "Tomra"
+						},
+						{
+							"src": "/assets/images/projects/tomrak2022/4.jpg",
+							"alt": "Tomra"
+						}
+					],
+					"review": {
+						"author": "",
+						"date": "",
+						"stars": 5,
+						"description": ""
 					}
 				},
 				{
@@ -423,6 +452,35 @@
 					}
 				},
 				{
+					"id": "lohia",
+					"header": "LOHIA CORP LIMITED",
+					"subTitle": "K-Fair, Düsseldorf",
+					"description": "De machines van Lohia die de boventoon voeren op de grote beursstand van Lohia mochten gezien worden en moesten voor de klanten ook volledig operationeel te bekijken zijn. Deze machines hebben we mooi verpakt in een prachtige beursstand die de gele “beacon” van Lohia mooi weergeeft. De gele accentkleur is nieuw binnen de corporate identity en mocht als accent duidelijk zichtbaar gemaakt worden. Prachtige machine stand waarbij hospitality op de 200m2 verdieping ook een grote impact had.",
+					"images": [{
+							"src": "/assets/images/projects/lohia/1.jpg",
+							"alt": ""
+						},
+						{
+							"src": "/assets/images/projects/lohia/2.jpg",
+							"alt": ""
+						},
+						{
+							"src": "/assets/images/projects/lohia/3.jpg",
+							"alt": ""
+						},
+						{
+							"src": "/assets/images/projects/lohia/4.jpg",
+							"alt": ""
+						}
+					],
+					"review": {
+						"author": "LOHIA CORP LIMITED",
+						"date": "oktober, 2022",
+						"stars": 5,
+						"description": "-"
+					}
+				},
+				{
 					"id": "tiama",
 					"header": "Tiama",
 					"subTitle": "Glasstec Düsseldorf",
@@ -474,8 +532,8 @@
 				{
 					"id": "speira",
 					"header": "Speira",
-					"subTitle": "Aluminium, Düsseldorf",
-					"description": "Speira heeft als slogan 'redefine the limit of aluminum solutions' We vonden dat de stand uit moest stralen en hebben een uniek concept ontwikkeld met een aantal elementen die oneindig leken. Tevens zijn er veel grondstoffen in de stand verwerkt als eye catcher en sfeer element. Behalve dat dit erg mooi is, verteld het ook een verhaal. Speira produceert hun producten voornamelijk uit gerecycled aluminium en wilde dit duidelijk terug laten komen in het stand ontwerpt. In combinatie met hun mooie corporate identity was dit een van de eye catchers van de Aluminium!  'Redefing the limits' met deze stand in elk aspect van de stand.",					
+					"subTitle": "Greenhouse Manufacturing Show Keulen",
+					"description": "Speira heeft als slogan 'redefine the limit of aluminum solutions' We vonden dat de stand uit moest stralen en hebben een uniek concept ontwikkeld met een aantal elementen die oneindig leken. Tevens zijn er veel grondstoffen in de stand verwerkt als eye catcher en sfeer element. Behalve dat dit erg mooi is, verteld het ook een verhaal. Speira produceert hun producten voornamelijk uit gerecycled aluminium en wilde dit duidelijk terug laten komen in het stand ontwerpt. In combinatie met hun mooie corporate identity was dit een van de eye catchers van de Aluminium!  'Redefing the limits' met deze stand in elk aspect van de stand.",
 					"images": [{
 							"src": "/assets/images/projects/speira/1.jpg",
 							"alt": "speira"
@@ -608,6 +666,35 @@
 					}
 				},
 				{
+					"id": "imcd",
+					"header": "IMCD",
+					"subTitle": "K-Fair Düsseldorf",
+					"description": "Het stand concept wat IMCD zelf heeft aangeleverd was erg fris en paste geheel in de stijl die ze zelf ook zochten. Wij hebben er, samen met onze partners, voor gezorgd dat de uitvoering van deze sfeer 1 op 1 omgezet is naar de realiteit. De bezoekers voelde zich erg welkom en de producten konden ook op een hoogwaardige manier gepresenteerd worden.",
+					"images": [{
+							"src": "/assets/images/projects/imcd/1.jpg",
+							"alt": ""
+						},
+						{
+							"src": "/assets/images/projects/imcd/2.jpg",
+							"alt": ""
+						},
+						{
+							"src": "/assets/images/projects/imcd/3.jpg",
+							"alt": ""
+						},
+						{
+							"src": "/assets/images/projects/imcd/4.jpg",
+							"alt": ""
+						}
+					],
+					"review": {
+						"author": "",
+						"date": "",
+						"stars": 5,
+						"description": ""
+					}
+				},
+				{
 					"id": "tomra-recycling",
 					"header": "TOMRA Recycling",
 					"subTitle": "IFAT, Munchen",
@@ -671,6 +758,14 @@
 						},
 						{
 							"src": "assets/images/projects/Arconic/4.JPG",
+							"alt": "Arconic"
+						},
+						{
+							"src": "assets/images/projects/Arconic/5.JPG",
+							"alt": "Arconic"
+						},
+						{
+							"src": "assets/images/projects/Arconic/6.JPG",
 							"alt": "Arconic"
 						}
 					],
@@ -968,11 +1063,11 @@
 						"description": ""
 					}
 				},
-				
+
 				{
 					"id": "hoogstraten",
 					"header": "Hoogstraten",
-					"subTitle": "Fruit Attraction Madrid",
+					"subTitle": "Fruit Attraction Madrid, FruitLogistica, Berlijn",
 					"description": "De stand van Hoogstraten op de Fruit Attraction was aan een update toe. Het moest open en welkome stand zijn van hoge kwaliteit waar het sustainable karakter in terug kwam waar Hoogstraten voor staat. We hebben daarom veel natuurlijke materialen gebruikt waarbij de mos wand met het grote licht logo een echt eye-catcher was. Er is een custom made stalen kast gemaakt welke volledig herbruikbaar is om hun producten te tonen aan de voorzijde van de stand. Bij het hospitality deel was er ruimte om nog meer producten te tonen. ",
 					"images": [{
 							"src": "/assets/images/projects/hoogstraten/1.jpg",
@@ -984,10 +1079,6 @@
 						},
 						{
 							"src": "/assets/images/projects/hoogstraten/3.jpg",
-							"alt": ""
-						},
-						{
-							"src": "/assets/images/projects/hoogstraten/4.jpg",
 							"alt": ""
 						}
 					],
@@ -1032,7 +1123,7 @@
 							"alt": "Tomra Food Sorting NV"
 						},
 						{
-							"src": "assets/images/projects/tomra/98.jpg",
+							"src": "assets/images/projects/tomra/8.jpg",
 							"alt": "Tomra Food Sorting NV"
 						}
 					],
@@ -1494,7 +1585,7 @@
 				{
 					"id": "speira",
 					"header": "Speira GmbH",
-					"subTitle": "Aluminium, Düsseldorf",
+					"subTitle": "Greenhouse Manufacturing Show Köln",
 					"description": "Der Slogan von Speira lautet: „Redefine the limits of Aluminium solutions. Wir dachten, dass das Standkonzept dies widerspiegeln sollte und entwickelten ein einzigartiges Konzept mit einer Reihe von Elementen, die endlos schienen, genau wie die Lösungen, die Speira seinen Kunden anbietet. Als Eyecatcher und Atmosphärenelement wurden zudem viele Rohstoffe in den Stand eingearbeitet. Abgesehen davon, dass es sehr schön war, erzählte dies eine Geschichte. Speira stellt seine Produkte hauptsächlich aus recyceltem Aluminium her und wollte dies auch in der Standgestaltung deutlich widerspiegeln. In Kombination mit ihrer schönen Corporate Identity war dies einer der Eye Catchers der Aluminium! Mit diesem Stand werden die Grenzen in jedem Aspekt des Standes neu definiert.",
 					"images": [],
 					"review": {
@@ -1547,7 +1638,7 @@
 					"id": "tiama",
 					"header": "Tiama",
 					"subTitle": "Glasstec Düsseldorf",
-					"description":"Daten sind der Schlüssel zu den Lösungen, die Tiama seinen Kunden anbietet. Dies war das Haupt Geschichte des Konzept. Mit 3 LED-Wänden an der Seite und einem beeindruckenden Mittelteil, wo die Daten von der Decke heruntergefallen sind, war dies ein wirklich einzigartiges Konzept! Aber es gab noch mehr, denn ein französisches Unternehmen, das TIAMA ist, möchte seine Gäste mit dem köstlichen französischen Essen verwöhnen. Um dies zu erreichen, haben wir einen schönen Hospitality-Bereich geschaffen. Darüber hinaus gab es Maschinen- und Produktpräsentationen. Alles in allem ein tolles Konzept mit der richtigen Balance zwischen Innovation, Design und Funktionalität.",
+					"description": "Daten sind der Schlüssel zu den Lösungen, die Tiama seinen Kunden anbietet. Dies war das Haupt Geschichte des Konzept. Mit 3 LED-Wänden an der Seite und einem beeindruckenden Mittelteil, wo die Daten von der Decke heruntergefallen sind, war dies ein wirklich einzigartiges Konzept! Aber es gab noch mehr, denn ein französisches Unternehmen, das TIAMA ist, möchte seine Gäste mit dem köstlichen französischen Essen verwöhnen. Um dies zu erreichen, haben wir einen schönen Hospitality-Bereich geschaffen. Darüber hinaus gab es Maschinen- und Produktpräsentationen. Alles in allem ein tolles Konzept mit der richtigen Balance zwischen Innovation, Design und Funktionalität.",
 					"images": [],
 					"review": {
 						"author": "",
@@ -1582,7 +1673,7 @@
 						"description": "In October 2018, Impol Group was exhibiting at Aluminium trade fair in Düsseldorf. Also, thanks to the guys Expo Mate, especially Jan (cheers, mate!), our exhibition success was perfect.\n\nWe decided to choose EXPO-MATE among other stand builders as their design was fresh, modern and in line with our expectation… and budget. \n\nWhen organizing such an event (it's not only building a stand, it's also taking care for the staff, visitors, hotels, stand party, catering etc.), there are zillions of things that could go wrong.  \n\nWhen a stand-builder understand your needs, when he is always there for you, helping you in every possible respect and making everything running smooth, then you can concentrate on the other little projects and tasks - and that makes your life a bit easier.\n\nThank you, guys, thank you, Jan.\n\nImpol Group\n\nPS:\nI was also playing around and compared accepted design (left picture) and stand after it was handled over. We could almost play game \"can you spot the difference?\"\n\nWell done!"
 					}
 				},
-								{
+				{
 					"id": "tomra-recycling",
 					"header": "TOMRA Recycling GmbH",
 					"subTitle": "IFAT, Munchen",
@@ -1702,7 +1793,7 @@
 				{
 					"id": "hoogstraten",
 					"header": "Hoogstraten",
-					"subTitle": "Fruit Attraction Madrid",
+					"subTitle": "Fruit Attraction Madrid, FruitLogistica, Berlin",
 					"description": "Der Stand von Hoogstraten auf der Fruit Attraction brauchte dringend ein Update. Er sollte offen und einladend wirken und gleichzeitig Nachhaltigkeit und hohe Qualität ausstrahlen, denn hierfür steht Hoogstraten. Darum haben wir viele natürliche Materialien benutzt, wobei die Wand aus Moos mit dem großen beleuchtetem Logo ein echter Eye Catcher war. Es wurde zudem ein Schrank hergestellt, der vollständig wieder benutzbar ist. Hiermit wurden auf die Produkte an der Vorderseite des Standes besser aufmerksam gemacht. Auch in dem Hospitality Teil des Stands war noch genug Raum, um den Fokus mehr auf die Produkte zu legen. ",
 					"images": [],
 					"review": {
@@ -2104,6 +2195,18 @@
 					}
 				},
 				{
+					"id": "tomrak2022",
+					"header": "Tomra Sorting",
+					"subTitle": "K2022 Düsseldorf",
+					"description": "We were allowed to create a stand concept for our regular customer, considering that all materials would be reused or that they would be disposed of in a sustainable manner. The atmospheric result made many heads turn at the K2022 fair and leading into many positive reactions, which made us and the customer very happy.",
+					"review": {
+						"author": "",
+						"date": "",
+						"stars": 5,
+						"description": ""
+					}
+				},
+				{
 					"id": "borusan-mannesmann",
 					"header": "Borusan Mannesmann",
 					"subTitle": "TUBE Düsseldorf",
@@ -2181,46 +2284,58 @@
 					}
 				},
 				{
+					"id": "lohia",
+					"header": "LOHIA CORP LIMITED",
+					"subTitle": "K-Fair, Düsseldorf",
+					"description": "The Lohia machines that predominate on the large exhibition stand of Lohia could be seen and also had to be fully operational for the customers to view. We have beautifully packaged these machines in a great exhibition stand that displays the yellow beacon of Lohia. The yellow accent color is new within the corporate identity and should be made clearly visible as an accent. Impactful machine-stand where hospitality on the 200m2 secondary floor also had a major impact.",
+					"review": {
+						"author": "LOHIA CORP LIMITED",
+						"date": "oktober, 2022",
+						"stars": 5,
+						"description": "-"
+					}
+				},
+				{
 					"id": "tiama",
 					"header": "Tiama",
 					"subTitle": "Glasstec Düsseldorf",
-					"description":"Data is key in the solutions Tiama offers to their clients. This was the main goal of the concept they requested for. With 3 led walls at the side and an impressive middle part where the data came fallen down from the ceiling this was a truly unique concept! But there was more because a French company that TIAMA is wants to spoil their guest with the delicious French food. In order to achieve this, we created a nice hospitality area. On top of this there were machines and products displays. All in all a great concept with the right balance between innovation, design and functionalities.",
+					"description": "Data is key in the solutions Tiama offers to their clients. This was the main goal of the concept they requested for. With 3 led walls at the side and an impressive middle part where the data came fallen down from the ceiling this was a truly unique concept! But there was more because a French company that TIAMA is wants to spoil their guest with the delicious French food. In order to achieve this, we created a nice hospitality area. On top of this there were machines and products displays. All in all a great concept with the right balance between innovation, design and functionalities.",
 					"images": [{
-						"src": "/assets/images/projects/tiama/1.jpg",
-						"alt": "tiama"
-					},
-					{
-						"src": "/assets/images/projects/tiama/2.jpg",
-						"alt": "tiama"
-					},
-					{
-						"src": "/assets/images/projects/tiama/3.jpg",
-						"alt": "tiama"
-					},
-					{
-						"src": "/assets/images/projects/tiama/4.jpg",
-						"alt": "tiama"
-					},
-					{
-						"src": "/assets/images/projects/tiama/5.jpg",
-						"alt": "tiama"
-					},
-					{
-						"src": "/assets/images/projects/tiama/6.jpg",
-						"alt": "tiama"
-					},
-					{
-						"src": "/assets/images/projects/tiama/7.jpg",
-						"alt": "tiama"
-					},
-					{
-						"src": "/assets/images/projects/tiama/8.jpg",
-						"alt": "tiama"
-					},
-					{
-						"src": "/assets/images/projects/tiama/9.jpg",
-						"alt": "tiama"
-					}
+							"src": "/assets/images/projects/tiama/1.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/2.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/3.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/4.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/5.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/6.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/7.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/8.jpg",
+							"alt": "tiama"
+						},
+						{
+							"src": "/assets/images/projects/tiama/9.jpg",
+							"alt": "tiama"
+						}
 					],
 					"review": {
 						"author": "",
@@ -2232,11 +2347,11 @@
 				{
 					"id": "speira",
 					"header": "Speira",
-					"subTitle": "Aluminium, Düsseldorf",
+					"subTitle": "Greenhouse Manufacturing Show Cologne",
 					"description": "Speira's slogan is 'redefine the limit of aluminum solutions'. We thought the stand concept should reflect this and developed a unique concept with a number of elements that seemed endless, just as the solutions Speira offerte to their clients. Many raw materials have also been incorporated into the stand as an eye catcher and atmosphere element. Besides being very beautiful, this told a story. Speira mainly produces their products from recycled aluminum and wanted this to be clearly reflected in the stand design. In combination with their beautiful corporate identity, this was one of the eye catchers of the Aluminium! Redefing the limits with this booth in every aspect of the booth.",
 					"images": [{
-						"src": "/assets/images/projects/speira/1.jpg",
-						"alt": "speira"
+							"src": "/assets/images/projects/speira/1.jpg",
+							"alt": "speira"
 						},
 						{
 							"src": "/assets/images/projects/speira/2.jpg",
@@ -2349,7 +2464,19 @@
 						"description": "In October 2018, Impol Group was exhibiting at Aluminium trade fair in Düsseldorf. Also, thanks to the guys Expo Mate, especially Jan (cheers, mate!), our exhibition success was perfect.\n\nWe decided to choose EXPO-MATE among other stand builders as their design was fresh, modern and in line with our expectation… and budget. \n\nWhen organizing such an event (it's not only building a stand, it's also taking care for the staff, visitors, hotels, stand party, catering etc.), there are zillions of things that could go wrong.  \n\nWhen a stand-builder understand your needs, when he is always there for you, helping you in every possible respect and making everything running smooth, then you can concentrate on the other little projects and tasks - and that makes your life a bit easier.\n\nThank you, guys, thank you, Jan.\n\nImpol Group\n\nPS:\nI was also playing around and compared accepted design (left picture) and stand after it was handled over. We could almost play game \"can you spot the difference?\"\n\nWell done!"
 					}
 				},
-												{
+				{
+					"id": "imcd",
+					"header": "IMCD",
+					"subTitle": "K-Fair Düsseldorf",
+					"description": "The stand concept that IMCD provided, was very fresh and fitted entirely in the style that they were looking for. Together with our executing partners, we have ensured that the implementation of this atmosphere has been converted 1 on 1 into reality. The visitors felt very welcome, and the clients products could also be presented in a high-quality manner.",
+					"review": {
+						"author": "",
+						"date": "",
+						"stars": 5,
+						"description": ""
+					}
+				},
+				{
 					"id": "tomra-recycling",
 					"header": "TOMRA Recycling",
 					"subTitle": "IFAT, Munchen",
@@ -2399,23 +2526,6 @@
 					"header": "Arconic",
 					"subTitle": "Aluminium Düsseldorf",
 					"description": "Arconic’s logo allowed us to use diagonal shapes to design a unique stand. The mostly black color palette in combination with white and wood elements and teal LED light fixtures created a breathtaking combination of colors and shapes. To top it off, the high-end displays presented several elements around the stand itself.",
-					"images": [{
-							"src": "assets/images/projects/Arconic/1.jpg",
-							"alt": "Arconic"
-						},
-						{
-							"src": "assets/images/projects/Arconic/2.jpg",
-							"alt": "Arconic"
-						},
-						{
-							"src": "assets/images/projects/Arconic/3-2.JPG",
-							"alt": "Arconic"
-						},
-						{
-							"src": "assets/images/projects/Arconic/4.JPG",
-							"alt": "Arconic"
-						}
-					],
 					"review": {
 						"author": "ARCONIC",
 						"date": "December 2018",
@@ -2423,7 +2533,7 @@
 						"description": "Very much enjoyed working with the Expo-Mate team for a show in Dusseldorf earlier this year. Expo-Mate provided us with efficient, effective and creative services - from design to execution - against the best 'value for money'. Above all, the team was hands on, flexible and fun to work with.\nAs a matter of ‘principle’, I don’t give a perfect ‘five star’ score, as there should always be a continuous strive for improvement. However Expo-Mate comes close to perfection and would pass the five-star test with flying colors (-;\nThey come highly recommended."
 					}
 				},
-								{
+				{
 					"id": "westfalia",
 					"header": "Westfalia",
 					"subTitle": "Fruit Logistica Berlin, PMA Anaheim, Fruit Attraction Madrid",
@@ -2694,7 +2804,7 @@
 				{
 					"id": "hoogstraten",
 					"header": "Hoogstraten",
-					"subTitle": "Fruit Attraction Madrid",
+					"subTitle": "Fruit Attraction Madrid, FruitLogistica, Berlin",
 					"description": "The stand Hoogstraten used for a few years at the Fruit Attraction needed an update. Open, welcome, high quality and sustainable were starting points for this beautiful concept. The large light logo at the moss wall was a true eye-catcher and products were displayed at the custom-made steel frame at the font of the, and near the hospitality area in custom made fruit boxes.   ",
 					"images": [],
 					"review": {
