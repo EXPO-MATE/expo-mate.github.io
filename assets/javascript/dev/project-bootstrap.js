@@ -32,7 +32,7 @@ $(function(){
                         var overviewImg = '';
 
                         //Search for fallback image
-                        if (item.images.length > 0) {
+                        if (item && item.images && item.images.length > 0) {
                             overviewImg = item.images[0].src;
                         }
                         //look in root for base image
