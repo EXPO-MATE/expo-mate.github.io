@@ -1608,6 +1608,9 @@ body.open {
     cursor: pointer;
     display: block;
     color: #000; }
+  .projects-wrapper .project:not(.open) .project-image{
+    cursor:pointer;
+  }
   .projects-wrapper .project:not(.open) .project-image,
   .projects-wrapper .project:not(.open) .project-desc-wrapper {
     width: 50%;
