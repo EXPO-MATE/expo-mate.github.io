@@ -532,7 +532,7 @@
 				{
 					"id": "speira",
 					"header": "Speira",
-					"subTitle": "Greenhouse Manufacturing Show Keulen",
+					"subTitle": "Aluminium, Düsseldorf & Greenhouse Manufacturing Show Keulen",
 					"description": "Speira heeft als slogan 'redefine the limit of aluminum solutions' We vonden dat de stand uit moest stralen en hebben een uniek concept ontwikkeld met een aantal elementen die oneindig leken. Tevens zijn er veel grondstoffen in de stand verwerkt als eye catcher en sfeer element. Behalve dat dit erg mooi is, verteld het ook een verhaal. Speira produceert hun producten voornamelijk uit gerecycled aluminium en wilde dit duidelijk terug laten komen in het stand ontwerpt. In combinatie met hun mooie corporate identity was dit een van de eye catchers van de Aluminium!  'Redefing the limits' met deze stand in elk aspect van de stand.",
 					"images": [{
 							"src": "/assets/images/projects/speira/1.jpg",
@@ -568,6 +568,10 @@
 						},
 						{
 							"src": "/assets/images/projects/speira/9.jpg",
+							"alt": "speira"
+						},
+						{
+							"src": "/assets/images/projects/speira/10.jpg",
 							"alt": "speira"
 						}
 					],
@@ -681,10 +685,6 @@
 						{
 							"src": "/assets/images/projects/imcd/3.jpg",
 							"alt": ""
-						},
-						{
-							"src": "/assets/images/projects/imcd/4.jpg",
-							"alt": ""
 						}
 					],
 					"review": {
@@ -761,11 +761,11 @@
 							"alt": "Arconic"
 						},
 						{
-							"src": "assets/images/projects/Arconic/5.JPG",
+							"src": "assets/images/projects/Arconic/5.jpg",
 							"alt": "Arconic"
 						},
 						{
-							"src": "assets/images/projects/Arconic/6.JPG",
+							"src": "assets/images/projects/Arconic/6.jpg",
 							"alt": "Arconic"
 						}
 					],
@@ -1585,7 +1585,7 @@
 				{
 					"id": "speira",
 					"header": "Speira GmbH",
-					"subTitle": "Greenhouse Manufacturing Show Köln",
+					"subTitle": "Aluminium, Düsseldorf & Greenhouse Manufacturing Show Köln",
 					"description": "Der Slogan von Speira lautet: „Redefine the limits of Aluminium solutions. Wir dachten, dass das Standkonzept dies widerspiegeln sollte und entwickelten ein einzigartiges Konzept mit einer Reihe von Elementen, die endlos schienen, genau wie die Lösungen, die Speira seinen Kunden anbietet. Als Eyecatcher und Atmosphärenelement wurden zudem viele Rohstoffe in den Stand eingearbeitet. Abgesehen davon, dass es sehr schön war, erzählte dies eine Geschichte. Speira stellt seine Produkte hauptsächlich aus recyceltem Aluminium her und wollte dies auch in der Standgestaltung deutlich widerspiegeln. In Kombination mit ihrer schönen Corporate Identity war dies einer der Eye Catchers der Aluminium! Mit diesem Stand werden die Grenzen in jedem Aspekt des Standes neu definiert.",
 					"images": [],
 					"review": {
@@ -1627,10 +1627,10 @@
 					"subTitle": "K2022 Düsseldorf",
 					"description": "We were allowed to create a stand concept for our regular customer, considering that all materials would be reused or that they would be disposed of in a sustainable manner. The atmospheric result made many heads turn at the K2022 fair and leading into many positive reactions, which made us and the customer very happy.",
 					"review": {
-						"author": "",
-						"date": "",
+						"author": "Tomra",
+						"date": "Oktober",
 						"stars": 5,
-						"description": ""
+						"description": "Het hele EXPO MATE-team was fantastisch - met begeleiding van onze projectmanager tot het geweldige team van standbouwers en iedereen daar tussenin, deden ze er alles aan om een ​​fantastisch resultaat af te leveren."
 					}
 				},
 				{
@@ -2224,10 +2224,10 @@
 					"subTitle": "K2022 Düsseldorf",
 					"description": "We were allowed to create a stand concept for our regular customer, considering that all materials would be reused or that they would be disposed of in a sustainable manner. The atmospheric result made many heads turn at the K2022 fair and leading into many positive reactions, which made us and the customer very happy.",
 					"review": {
-						"author": "",
-						"date": "",
+						"author": "Tomra",
+						"date": "October",
 						"stars": 5,
-						"description": ""
+						"description": "The entire EXPO MATE team have been fantastic - with guidance from our project manager to the wonderful team of stand builders and everyone in between, they all went above and beyond to deliver a fantastic result."
 					}
 				},
 				{
@@ -2371,7 +2371,7 @@
 				{
 					"id": "speira",
 					"header": "Speira",
-					"subTitle": "Greenhouse Manufacturing Show Cologne",
+					"subTitle": " Aluminium, Dusseldorf & Greenhouse Manufacturing Show, Cologne",
 					"description": "Speira's slogan is 'redefine the limit of aluminum solutions'. We thought the stand concept should reflect this and developed a unique concept with a number of elements that seemed endless, just as the solutions Speira offerte to their clients. Many raw materials have also been incorporated into the stand as an eye catcher and atmosphere element. Besides being very beautiful, this told a story. Speira mainly produces their products from recycled aluminum and wanted this to be clearly reflected in the stand design. In combination with their beautiful corporate identity, this was one of the eye catchers of the Aluminium! Redefing the limits with this booth in every aspect of the booth.",
 					"review": {
 						"author": "Speira",
