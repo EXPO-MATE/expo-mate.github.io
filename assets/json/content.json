@@ -8,7 +8,7 @@
 				"aboutUs": "Wie zijn wij",
 				"method": "Onze Werkwijze",
 				"process": "Full service Proces",
-				"model": "Het expo-mate model",
+				"model": "Het Expo - Mate model",
 				"comparison": "Van Design naar Realisatie",
 				"values": "Onze Kernwaardes",
 				"projects": "Projecten",
@@ -102,15 +102,15 @@
 						}
 					},
 					"aboutUs": {
-						"header": "WIE ZIJN WIJ?",
+						"header": "WIE IS EXPO - MATE?",
 						"description": "",
 						"employees": {
 							"niek": {
-								"header": "Niek van Gent",
-								"description": "<p>Door zelf als sales\n&amp; marketing manager te hebben gewerkt begrijp ik als geen ander waar onze\nklanten behoeftes aan hebben. Iets waarvan ik merk dat het echt een meerwaarde\nis tijdens het designproces. De omzetting van organisatie naar een concreet\nconcept samen met onze klanten is mijn grootste drijfveer!&nbsp;De hoogst\nmogelijke kwaliteit en een persoonlijke en relaxte manier van samenwerken loopt\nhier als een rode draad doorheen.</p>",
+								"header": "",
+								"description": "",
 								"image": {
-									"src": "assets/images/niek.jpg",
-									"alt": "Niek van Gent"
+									"src": "",
+									"alt": ""
 								}
 							},
 							"jan": {
@@ -257,18 +257,18 @@
 							"phone": "+31 6 50 28 18 91"
 						},
 						"niek": {
-							"header": "Niek van Gent",
+							"header": "",
 							"links": {
 								"email": {
-									"header": "n.van.gent@expo-mate.com",
-									"src": "mailto:n.van.gent@expo-mate.com"
+									"header": "",
+									"src": ""
 								},
 								"linkedin": {
-									"header": "Niek op",
-									"src": "https://nl.linkedin.com/in/niek-van-gent-b538781b"
+									"header": "",
+									"src": ""
 								}
 							},
-							"phone": "+31 6 50 28 18 91"
+							"phone": ""
 						}
 					},
 					"phone": {
@@ -1294,7 +1294,7 @@
 				"aboutUs": "Wer wir sind",
 				"method": "UNSERE ARBEITSWEISE",
 				"process": "Full service Proces",
-				"model": "Unser EXPO-MATE Modell",
+				"model": "Unser Expo - Mate Modell",
 				"comparison": "Von der Einführung bis zum Design",
 				"values": "Unsere Unternehmenswerte",
 				"projects": "Projekte",
@@ -1388,15 +1388,15 @@
 						}
 					},
 					"aboutUs": {
-						"header": "Wer wir sind?",
+						"header": "Wer ist Expo - Mate?",
 						"description": "<p><br></p>",
 						"employees": {
 							"niek": {
-								"header": "Niek van Gent",
-								"description": "Aufgrund meiner Erfahrung als kommerzieller Manager verstehe ich schnell, welche Bedürfnisse unsere Kunden haben. Das ist während des Designprozesses ein echter Mehrwert. Da ich selber lange in der Position meiner Gesprächspartner war, kann ich mich in die Bedürfnisse wirklich gut eindenken. Die Umsetzung vom Unternehmen zum konkreten Konzept zusammen mit unseren Kunden ist einer meiner wichtigsten Motive!",
+								"header": "",
+								"description": "",
 								"image": {
-									"src": "assets/images/niek.jpg",
-									"alt": "Niek van Gent"
+									"src": "",
+									"alt": ""
 								}
 							},
 							"jan": {
@@ -1543,18 +1543,18 @@
 							"phone": "+31 6 50 28 18 91"
 						},
 						"niek": {
-							"header": "Niek van Gent",
+							"header": "",
 							"links": {
 								"email": {
-									"header": "n.van.gent@expo-mate.com",
-									"src": "mailto:n.van.gent@expo-mate.com"
+									"header": "",
+									"src": ""
 								},
 								"linkedin": {
-									"header": "Niek auf",
-									"src": "https://nl.linkedin.com/in/niek-van-gent-b538781b"
+									"header": "",
+									"src": ""
 								}
 							},
-							"phone": "+31 6 50 28 18 91"
+							"phone": ""
 						}
 					},
 					"phone": {
@@ -1904,7 +1904,7 @@
 				"aboutUs": "Who we are",
 				"method": "Working method",
 				"process": "Full service Proces",
-				"model": "Our Expo-Mate Model",
+				"model": "Our Expo - Mate Model",
 				"comparison": "Turn design into realization",
 				"values": "Our Core Values",
 				"projects": "Projects",
@@ -1998,15 +1998,15 @@
 						}
 					},
 					"aboutUs": {
-						"header": "Who we are?",
+						"header": "Who is Expo - Mate?",
 						"description": "<p><br></p>",
 						"employees": {
 							"niek": {
-								"header": "Niek van Gent",
-								"description": "<p>Being active as a commercial manager in a role of exhibition manager I understand the need of our clients as if it was my own. This results into a major value increasing element during the design process. By acting in the same role as our conversation partner, I can emphasize on their needs and wishes. My biggest motivation is to ensure the right conversion of the organization into a 3D concept for our clients!</p>",
+								"header": "",
+								"description": " ",
 								"image": {
-									"src": "assets/images/niek.jpg",
-									"alt": "Niek van Gent"
+									"src": "",
+									"alt": ""
 								}
 							},
 							"jan": {
@@ -2153,19 +2153,18 @@
 							"phone": "+31 6 50 28 18 91"
 						},
 						"niek": {
-							"header": "Niek van Gent",
+							"header": "",
 							"links": {
 								"email": {
-									"header": "n.van.gent@expo-mate.com",
-									"src": "mailto:n.van.gent@expo-mate.com"
+									"header": "",
+									"src": ""
 								},
 								"linkedin": {
-									"header": "Niek on",
-									"src": "https://nl.linkedin.com/in/niek-van-gent-b538781b",
-									"alt": "Niek on LinkedIn"
+									"header": "",
+									"src": ""
 								}
 							},
-							"phone": "+31 6 50 28 18 91"
+							"phone": ""
 						}
 					},
 					"phone": {
